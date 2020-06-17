@@ -9,5 +9,6 @@ Program Flow:
   1. Create a .pdb file for that protein and open that file if you have a software like UCSF Chimera installed. 
   2. Convert that amino acid sequence into a DNA sequence while choosing codons arbitrarily and display the number of nucleotides in the DNA sequence and also display the GC Ratio of the DNA sequence. 
 
-# Demo
+# Demo Video
+Click on picture to see video
 [![Alt text](https://img.youtube.com/vi/MHKekgioHR0/0.jpg)](https://www.youtube.com/watch?v=MHKekgioHR0)
