@@ -8,6 +8,8 @@ Program Flow:
 - The program will then do two things:
   1. Create a .pdb file for that protein and open that file if you have a software like UCSF Chimera installed. 
   2. Convert that amino acid sequence into a DNA sequence while choosing codons arbitrarily and display the number of nucleotides in the DNA sequence and also display the GC Ratio of the DNA sequence. 
+  
+Note: It may take 2-5 minutes for the program to make the "BLAST" which is essentialy the model of the protein. The program stores that info in XML and PDB files so that when you try and visualize the same protein again it just directly accesses those files rather than rengerating that "BLAST" again and thus saving time. 
 
 # Demo Video
 Click on picture to see video
