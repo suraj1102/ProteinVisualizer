@@ -1,6 +1,7 @@
 from Bio import SeqIO
 import random, os
 
+cwd = os.getcwd()
 fasta_dir = cwd + os.sep + 'FastaFiles' + os.sep
 
 class SeqTools():
