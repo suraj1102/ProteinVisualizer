@@ -18,7 +18,7 @@ Click on picture to see video
 
 # Dependencies
 1. Python 3.6 or above.
-  - Can be downloaded from https://www.python.org/downloads/
+    - Can be downloaded from https://www.python.org/downloads/
 2. Requests module
   - Terminal command to download: ```pip install requests```
 3. Beautiful soup module
