@@ -15,3 +15,16 @@ Note: It may take 2-5 minutes for the program to make the "BLAST" which is essen
 Click on picture to see video
 
 [![Alt text](https://img.youtube.com/vi/MHKekgioHR0/0.jpg)](https://www.youtube.com/watch?v=MHKekgioHR0)
+
+# Dependencies
+1. Python 3.6 or above.
+  - Can be downloaded from https://www.python.org/downloads/
+2. Requests module
+  - Terminal command to download: ```
+function test() {
+  console.log("pip install requests");
+}
+```
+
+3. Beautiful soup module
+4. BioPython module
