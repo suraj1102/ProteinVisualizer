@@ -1,15 +1,15 @@
 from Bio import SeqIO
 import random, os
 
-cwd = os.getcwd()
-fasta_dir = cwd + os.sep + 'FastaFiles' + os.sep
+fstf = os.getcwd() + os.sep + 'FastaFiles' + os.sep
 
 class SeqTools():
     def __init__(self, protein_id):
         self.protein_id = protein_id
 
     def read_seq(self):
-        self.seq = SeqIO.read(fasta_dir + "{self.protein_id}.fasta", format='fasta').seq
+        self.seq = SeqIO.read(f"{fstf}{self.protein_id}.fasta", format='fasta')
+        self.seq = self.seq.seq
         return f'\nProtein Sequence:\n{self.seq}'
 
     def protein_to_dna(self):
