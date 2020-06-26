@@ -24,4 +24,4 @@ Click on picture to see video
 3. Beautiful soup module
   - Terminal command to download: ```pip install beautifulsoup4```
 4. BioPython module
-  - - Terminal command to download: ```pip install biopython```
+  - Terminal command to download: ```pip install biopython```
