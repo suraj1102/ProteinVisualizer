@@ -1,0 +1,1441 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.10.1+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>pdb</BlastOutput_db>
+  <BlastOutput_query-ID>Query_18749</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>1443</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_18749</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>1443</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>pdb|1QRZ|A</Hit_id>
+  <Hit_def>Chain A, Plasminogen [Homo sapiens] &gt;pdb|1QRZ|B Chain B, Plasminogen [Homo sapiens] &gt;pdb|1QRZ|C Chain C, Plasminogen [Homo sapiens] &gt;pdb|1QRZ|D Chain D, Plasminogen [Homo sapiens]</Hit_def>
+  <Hit_accession>1QRZ_A</Hit_accession>
+  <Hit_len>246</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>194.897</Hsp_bit-score>
+      <Hsp_score>494</Hsp_score>
+      <Hsp_evalue>1.42268e-55</Hsp_evalue>
+      <Hsp_query-from>1205</Hsp_query-from>
+      <Hsp_query-to>1443</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>246</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>108</Hsp_identity>
+      <Hsp_positive>147</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>244</Hsp_align-len>
+      <Hsp_qseq>ARIVGGQEANPGDWPWQALLQTPRGSQFCGGTLIHPQWVLSAAHCVERS-KPQDIVIRMGAHYRVEKSSTSKNEQKFKVTKIITYESYNKPLQLSHDVALLKLESSATLNDFTNLACLPSTNPTTG--SFCAITGWGTLKQNGGQPAKLQVVRVPIIQQETCQRY--YPKAIHGSMVCAGFSEGGKDSCQGDSGGPMVCKGTDGRYSLHGVTSWGSGCAQPRKPGVYARVSFLLKWIKDNINNN</Hsp_qseq>
+      <Hsp_hseq>GRVVGGCVAHPHSWPWQVSLRTRFGQHFCGGTLISPEWVLTAAHCLEKSPRPSSYKVILGAHQEV---NLEPHVQEIEVSRL-----FLEPTR--KDIALLKLSSPAVITDKVIPACLPSPNYMVADRTECFITGWGETQGTFGA-GLLKEAQLPVIENKVCNRYEFLNGRVQSTELCAGHLAGGTDSCQGDSGGPLVCFEKD-KYILQGVTSWGLGCARPNKPGVYVRVSRFVTWIEGVLRNN</Hsp_hseq>
+      <Hsp_midline> R+VGG  A+P  WPWQ  L+T  G  FCGGTLI P+WVL+AAHC+E+S +P    + +GAH  V   +   + Q+ +V+++     + +P +   D+ALLKL S A + D    ACLPS N      + C ITGWG  +   G    L+  ++P+I+ + C RY      +  + +CAG   GG DSCQGDSGGP+VC   D +Y L GVTSWG GCA+P KPGVY RVS  + WI+  + NN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>pdb|6Q1U|A</Hit_id>
+  <Hit_def>Chain A, Plasminogen [Homo sapiens] &gt;pdb|6Q1U|B Chain B, Plasminogen [Homo sapiens]</Hit_def>
+  <Hit_accession>6Q1U_A</Hit_accession>
+  <Hit_len>249</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>194.512</Hsp_bit-score>
+      <Hsp_score>493</Hsp_score>
+      <Hsp_evalue>1.63788e-55</Hsp_evalue>
+      <Hsp_query-from>1205</Hsp_query-from>
+      <Hsp_query-to>1443</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>249</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>108</Hsp_identity>
+      <Hsp_positive>147</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>244</Hsp_align-len>
+      <Hsp_qseq>ARIVGGQEANPGDWPWQALLQTPRGSQFCGGTLIHPQWVLSAAHCVERS-KPQDIVIRMGAHYRVEKSSTSKNEQKFKVTKIITYESYNKPLQLSHDVALLKLESSATLNDFTNLACLPSTNPTTG--SFCAITGWGTLKQNGGQPAKLQVVRVPIIQQETCQRY--YPKAIHGSMVCAGFSEGGKDSCQGDSGGPMVCKGTDGRYSLHGVTSWGSGCAQPRKPGVYARVSFLLKWIKDNINNN</Hsp_qseq>
+      <Hsp_hseq>GRVVGGCVAHPHSWPWQVSLRTRFGMHFCGGTLISPEWVLTAAHCLEKSPRPSSYKVILGAHQEV---NLEPHVQEIEVSRL-----FLEPTR--KDIALLKLSSPAVITDKVIPACLPSPNYVVADRTECFITGWGETQGTFGA-GLLKEAQLPVIENKVCNRYEFLNGRVQSTELCAGHLAGGTDSCQGDSGGPLVCFEKD-KYILQGVTSWGLGCARPNKPGVYVRVSRFVTWIEGVMRNN</Hsp_hseq>
+      <Hsp_midline> R+VGG  A+P  WPWQ  L+T  G  FCGGTLI P+WVL+AAHC+E+S +P    + +GAH  V   +   + Q+ +V+++     + +P +   D+ALLKL S A + D    ACLPS N      + C ITGWG  +   G    L+  ++P+I+ + C RY      +  + +CAG   GG DSCQGDSGGP+VC   D +Y L GVTSWG GCA+P KPGVY RVS  + WI+  + NN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>pdb|4AN7|A</Hit_id>
+  <Hit_def>Chain A, Trypsin [Sus scrofa] &gt;pdb|5XWJ|A Chain A, Trypsin [Sus scrofa] &gt;pdb|5XWJ|B Chain B, Trypsin [Sus scrofa] &gt;pdb|5XWL|A Chain A, Trypsin [Sus scrofa] &gt;pdb|5XWL|B Chain B, Trypsin [Sus scrofa]</Hit_def>
+  <Hit_accession>4AN7_A</Hit_accession>
+  <Hit_len>231</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>194.126</Hsp_bit-score>
+      <Hsp_score>492</Hsp_score>
+      <Hsp_evalue>1.67003e-55</Hsp_evalue>
+      <Hsp_query-from>1206</Hsp_query-from>
+      <Hsp_query-to>1443</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>231</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>104</Hsp_identity>
+      <Hsp_positive>137</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>RIVGGQEANPGDWPWQALLQTPRGSQFCGGTLIHPQWVLSAAHCVERSKPQDIVIRMGAHYRVEKSSTSKNEQKFKVTKIITYESYNKPLQLSHDVALLKLESSATLNDFTNLACLPSTNPTTGSFCAITGWGTLKQNGGQ-PAKLQVVRVPIIQQETCQRYYPKAIHGSMVCAGFSEGGKDSCQGDSGGPMVCKGTDGRYSLHGVTSWGSGCAQPRKPGVYARVSFLLKWIKDNINNN</Hsp_qseq>
+      <Hsp_hseq>KIVGGYTCAANSIPYQVSLNS--GSHFCGGSLINSQWVVSAAHCYKSR----IQVRLGEH---NIDVLEGNEQFINAAKIITHPNFNGN-TLDNDIMLIKLSSPATLNSRVATVSLPRSCAAAGTECLISGWGNTKSSGSSYPSLLQCLKAPVLSDSSCKSSYPGQITGNMICVGFLEGGKDSCQGDSGGPVVCNG-----QLQGIVSWGYGCAQKNKPGVYTKVCNYVNWIQQTIAAN</Hsp_hseq>
+      <Hsp_midline>+IVGG        P+Q  L +  GS FCGG+LI+ QWV+SAAHC +      I +R+G H          NEQ     KIIT+ ++N    L +D+ L+KL S ATLN       LP +    G+ C I+GWG  K +G   P+ LQ ++ P++   +C+  YP  I G+M+C GF EGGKDSCQGDSGGP+VC G      L G+ SWG GCAQ  KPGVY +V   + WI+  I  N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>pdb|5UGD|A</Hit_id>
+  <Hit_def>Chain A, Plasminogen [Homo sapiens] &gt;pdb|5UGG|A Chain A, Plasminogen [Homo sapiens]</Hit_def>
+  <Hit_accession>5UGD_A</Hit_accession>
+  <Hit_len>251</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>194.897</Hsp_bit-score>
+      <Hsp_score>494</Hsp_score>
+      <Hsp_evalue>1.70866e-55</Hsp_evalue>
+      <Hsp_query-from>1205</Hsp_query-from>
+      <Hsp_query-to>1443</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>251</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>108</Hsp_identity>
+      <Hsp_positive>147</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>244</Hsp_align-len>
+      <Hsp_qseq>ARIVGGQEANPGDWPWQALLQTPRGSQFCGGTLIHPQWVLSAAHCVERS-KPQDIVIRMGAHYRVEKSSTSKNEQKFKVTKIITYESYNKPLQLSHDVALLKLESSATLNDFTNLACLPSTNPTTG--SFCAITGWGTLKQNGGQPAKLQVVRVPIIQQETCQRY--YPKAIHGSMVCAGFSEGGKDSCQGDSGGPMVCKGTDGRYSLHGVTSWGSGCAQPRKPGVYARVSFLLKWIKDNINNN</Hsp_qseq>
+      <Hsp_hseq>GRVVGGCVAHPHSWPWQVSLRTRFGMHFCGGTLISPEWVLTAAHCLEKSPRPSSYKVILGAHQEV---NLEPHVQEIEVSRL-----FLEPTR--KDIALLKLSSPAVITDKVIPACLPSPNYVVADRTECFITGWGETQGTFGA-GLLKEAQLPVIENKVCNRYEFLNGRVQSTELCAGHLAGGTDSCQGDSGGPLVCFEKD-KYILQGVTSWGLGCARPNKPGVYVRVSRFVTWIEGVMRNN</Hsp_hseq>
+      <Hsp_midline> R+VGG  A+P  WPWQ  L+T  G  FCGGTLI P+WVL+AAHC+E+S +P    + +GAH  V   +   + Q+ +V+++     + +P +   D+ALLKL S A + D    ACLPS N      + C ITGWG  +   G    L+  ++P+I+ + C RY      +  + +CAG   GG DSCQGDSGGP+VC   D +Y L GVTSWG GCA+P KPGVY RVS  + WI+  + NN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>pdb|1BUI|A</Hit_id>
+  <Hit_def>Chain A, Plasminogen [Homo sapiens] &gt;pdb|1BUI|B Chain B, Plasminogen [Homo sapiens]</Hit_def>
+  <Hit_accession>1BUI_A</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>194.512</Hsp_bit-score>
+      <Hsp_score>493</Hsp_score>
+      <Hsp_evalue>1.73871e-55</Hsp_evalue>
+      <Hsp_query-from>1205</Hsp_query-from>
+      <Hsp_query-to>1443</Hsp_query-to>
+      <Hsp_hit-from>19</Hsp_hit-from>
+      <Hsp_hit-to>250</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>108</Hsp_identity>
+      <Hsp_positive>147</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>244</Hsp_align-len>
+      <Hsp_qseq>ARIVGGQEANPGDWPWQALLQTPRGSQFCGGTLIHPQWVLSAAHCVERS-KPQDIVIRMGAHYRVEKSSTSKNEQKFKVTKIITYESYNKPLQLSHDVALLKLESSATLNDFTNLACLPSTNPTTG--SFCAITGWGTLKQNGGQPAKLQVVRVPIIQQETCQRY--YPKAIHGSMVCAGFSEGGKDSCQGDSGGPMVCKGTDGRYSLHGVTSWGSGCAQPRKPGVYARVSFLLKWIKDNINNN</Hsp_qseq>
+      <Hsp_hseq>GRVVGGCVAHPHSWPWQVSLRTRFGMHFCGGTLISPEWVLTAAHCLEKSPRPSSYKVILGAHQEV---NLEPHVQEIEVSRL-----FLEPTR--KDIALLKLSSPAVITDKVIPACLPSPNYVVADRTECFITGWGETQGTFGA-GLLKEAQLPVIENKVCNRYEFLNGRVQSTELCAGHLAGGTDSCQGDSGGPLVCFEKD-KYILQGVTSWGLGCARPNKPGVYVRVSRFVTWIEGVMRNN</Hsp_hseq>
+      <Hsp_midline> R+VGG  A+P  WPWQ  L+T  G  FCGGTLI P+WVL+AAHC+E+S +P    + +GAH  V   +   + Q+ +V+++     + +P +   D+ALLKL S A + D    ACLPS N      + C ITGWG  +   G    L+  ++P+I+ + C RY      +  + +CAG   GG DSCQGDSGGP+VC   D +Y L GVTSWG GCA+P KPGVY RVS  + WI+  + NN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>pdb|6D40|A</Hit_id>
+  <Hit_def>Chain A, Plasminogen [Homo sapiens]</Hit_def>
+  <Hit_accession>6D40_A</Hit_accession>
+  <Hit_len>248</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>194.512</Hsp_bit-score>
+      <Hsp_score>493</Hsp_score>
+      <Hsp_evalue>1.78299e-55</Hsp_evalue>
+      <Hsp_query-from>1205</Hsp_query-from>
+      <Hsp_query-to>1443</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>248</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>108</Hsp_identity>
+      <Hsp_positive>147</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>244</Hsp_align-len>
+      <Hsp_qseq>ARIVGGQEANPGDWPWQALLQTPRGSQFCGGTLIHPQWVLSAAHCVERS-KPQDIVIRMGAHYRVEKSSTSKNEQKFKVTKIITYESYNKPLQLSHDVALLKLESSATLNDFTNLACLPSTNPTTG--SFCAITGWGTLKQNGGQPAKLQVVRVPIIQQETCQRY--YPKAIHGSMVCAGFSEGGKDSCQGDSGGPMVCKGTDGRYSLHGVTSWGSGCAQPRKPGVYARVSFLLKWIKDNINNN</Hsp_qseq>
+      <Hsp_hseq>GRVVGGCVAHPHSWPWQVSLRTRFGMHFCGGTLISPEWVLTAAHCLEKSPRPSSYKVILGAHQEV---NLEPHVQEIEVSRL-----FLEPTR--KDIALLKLSSPAVITDKVIPACLPSPNYVVADRTECFITGWGETQGTFGA-GLLKEAQLPVIENKVCNRYEFLNGRVQSTELCAGHLAGGTDSCQGDSGGPLVCFEKD-KYILQGVTSWGLGCARPNKPGVYVRVSRFVTWIEGVMRNN</Hsp_hseq>
+      <Hsp_midline> R+VGG  A+P  WPWQ  L+T  G  FCGGTLI P+WVL+AAHC+E+S +P    + +GAH  V   +   + Q+ +V+++     + +P +   D+ALLKL S A + D    ACLPS N      + C ITGWG  +   G    L+  ++P+I+ + C RY      +  + +CAG   GG DSCQGDSGGP+VC   D +Y L GVTSWG GCA+P KPGVY RVS  + WI+  + NN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>pdb|3UIR|A</Hit_id>
+  <Hit_def>Chain A, Plasmin Light Chain B [Homo sapiens] &gt;pdb|3UIR|B Chain B, Plasmin Light Chain B [Homo sapiens] &gt;pdb|6D3Y|A Chain A, Plasminogen [Homo sapiens]</Hit_def>
+  <Hit_accession>3UIR_A</Hit_accession>
+  <Hit_len>247</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>194.512</Hsp_bit-score>
+      <Hsp_score>493</Hsp_score>
+      <Hsp_evalue>1.9223e-55</Hsp_evalue>
+      <Hsp_query-from>1205</Hsp_query-from>
+      <Hsp_query-to>1443</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>247</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>108</Hsp_identity>
+      <Hsp_positive>147</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>244</Hsp_align-len>
+      <Hsp_qseq>ARIVGGQEANPGDWPWQALLQTPRGSQFCGGTLIHPQWVLSAAHCVERS-KPQDIVIRMGAHYRVEKSSTSKNEQKFKVTKIITYESYNKPLQLSHDVALLKLESSATLNDFTNLACLPSTNPTTG--SFCAITGWGTLKQNGGQPAKLQVVRVPIIQQETCQRY--YPKAIHGSMVCAGFSEGGKDSCQGDSGGPMVCKGTDGRYSLHGVTSWGSGCAQPRKPGVYARVSFLLKWIKDNINNN</Hsp_qseq>
+      <Hsp_hseq>GRVVGGCVAHPHSWPWQVSLRTRFGMHFCGGTLISPEWVLTAAHCLEKSPRPSSYKVILGAHQEV---NLEPHVQEIEVSRL-----FLEPTR--KDIALLKLSSPAVITDKVIPACLPSPNYVVADRTECFITGWGETQGTFGA-GLLKEAQLPVIENKVCNRYEFLNGRVQSTELCAGHLAGGTDSCQGDSGGPLVCFEKD-KYILQGVTSWGLGCARPNKPGVYVRVSRFVTWIEGVMRNN</Hsp_hseq>
+      <Hsp_midline> R+VGG  A+P  WPWQ  L+T  G  FCGGTLI P+WVL+AAHC+E+S +P    + +GAH  V   +   + Q+ +V+++     + +P +   D+ALLKL S A + D    ACLPS N      + C ITGWG  +   G    L+  ++P+I+ + C RY      +  + +CAG   GG DSCQGDSGGP+VC   D +Y L GVTSWG GCA+P KPGVY RVS  + WI+  + NN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>pdb|6D3X|A</Hit_id>
+  <Hit_def>Chain A, Plasminogen [Homo sapiens] &gt;pdb|6D3X|B Chain B, Plasminogen [Homo sapiens]</Hit_def>
+  <Hit_accession>6D3X_A</Hit_accession>
+  <Hit_len>246</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>194.126</Hsp_bit-score>
+      <Hsp_score>492</Hsp_score>
+      <Hsp_evalue>2.21722e-55</Hsp_evalue>
+      <Hsp_query-from>1205</Hsp_query-from>
+      <Hsp_query-to>1443</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>246</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>108</Hsp_identity>
+      <Hsp_positive>147</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>244</Hsp_align-len>
+      <Hsp_qseq>ARIVGGQEANPGDWPWQALLQTPRGSQFCGGTLIHPQWVLSAAHCVERS-KPQDIVIRMGAHYRVEKSSTSKNEQKFKVTKIITYESYNKPLQLSHDVALLKLESSATLNDFTNLACLPSTNPTTG--SFCAITGWGTLKQNGGQPAKLQVVRVPIIQQETCQRY--YPKAIHGSMVCAGFSEGGKDSCQGDSGGPMVCKGTDGRYSLHGVTSWGSGCAQPRKPGVYARVSFLLKWIKDNINNN</Hsp_qseq>
+      <Hsp_hseq>GRVVGGCVAHPHSWPWQVSLRTRFGMHFCGGTLISPEWVLTAAHCLEKSPRPSSYKVILGAHQEV---NLEPHVQEIEVSRL-----FLEPTR--KDIALLKLSSPAVITDKVIPACLPSPNYVVADRTECFITGWGETQGTFGA-GLLKEAQLPVIENKVCNRYEFLNGRVQSTELCAGHLAGGTDSCQGDSGGPLVCFEKD-KYILQGVTSWGLGCARPNKPGVYVRVSRFVTWIEGVMRNN</Hsp_hseq>
+      <Hsp_midline> R+VGG  A+P  WPWQ  L+T  G  FCGGTLI P+WVL+AAHC+E+S +P    + +GAH  V   +   + Q+ +V+++     + +P +   D+ALLKL S A + D    ACLPS N      + C ITGWG  +   G    L+  ++P+I+ + C RY      +  + +CAG   GG DSCQGDSGGP+VC   D +Y L GVTSWG GCA+P KPGVY RVS  + WI+  + NN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>pdb|1BML|A</Hit_id>
+  <Hit_def>Chain A, PLASMIN [Homo sapiens] &gt;pdb|1BML|B Chain B, PLASMIN [Homo sapiens]</Hit_def>
+  <Hit_accession>1BML_A</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>193.741</Hsp_bit-score>
+      <Hsp_score>491</Hsp_score>
+      <Hsp_evalue>3.72469e-55</Hsp_evalue>
+      <Hsp_query-from>1205</Hsp_query-from>
+      <Hsp_query-to>1443</Hsp_query-to>
+      <Hsp_hit-from>19</Hsp_hit-from>
+      <Hsp_hit-to>250</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>107</Hsp_identity>
+      <Hsp_positive>147</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>244</Hsp_align-len>
+      <Hsp_qseq>ARIVGGQEANPGDWPWQALLQTPRGSQFCGGTLIHPQWVLSAAHCVERS-KPQDIVIRMGAHYRVEKSSTSKNEQKFKVTKIITYESYNKPLQLSHDVALLKLESSATLNDFTNLACLPSTNPTTG--SFCAITGWGTLKQNGGQPAKLQVVRVPIIQQETCQRY--YPKAIHGSMVCAGFSEGGKDSCQGDSGGPMVCKGTDGRYSLHGVTSWGSGCAQPRKPGVYARVSFLLKWIKDNINNN</Hsp_qseq>
+      <Hsp_hseq>GRVVGGCVAHPHSWPWQVSLRTRFGMHFCGGTLISPEWVLTAAHCLEKSPRPSSYKVILGAHQEV---NLEPHVQEIEVSRL-----FLEPTR--KDIALLKLSSPAVITDKVIPACLPSPNYVVADRTECFITGWGETQGTFGA-GLLKEAQLPVIENKVCNRYEFLNGRVQSTELCAGHLAGGTDSCQGDAGGPLVCFEKD-KYILQGVTSWGLGCARPNKPGVYVRVSRFVTWIEGVMRNN</Hsp_hseq>
+      <Hsp_midline> R+VGG  A+P  WPWQ  L+T  G  FCGGTLI P+WVL+AAHC+E+S +P    + +GAH  V   +   + Q+ +V+++     + +P +   D+ALLKL S A + D    ACLPS N      + C ITGWG  +   G    L+  ++P+I+ + C RY      +  + +CAG   GG DSCQGD+GGP+VC   D +Y L GVTSWG GCA+P KPGVY RVS  + WI+  + NN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>pdb|1L4D|A</Hit_id>
+  <Hit_def>Chain A, Plasminogen [Homo sapiens]</Hit_def>
+  <Hit_accession>1L4D_A</Hit_accession>
+  <Hit_len>249</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>193.741</Hsp_bit-score>
+      <Hsp_score>491</Hsp_score>
+      <Hsp_evalue>3.93933e-55</Hsp_evalue>
+      <Hsp_query-from>1205</Hsp_query-from>
+      <Hsp_query-to>1443</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>249</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>107</Hsp_identity>
+      <Hsp_positive>147</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>244</Hsp_align-len>
+      <Hsp_qseq>ARIVGGQEANPGDWPWQALLQTPRGSQFCGGTLIHPQWVLSAAHCVERS-KPQDIVIRMGAHYRVEKSSTSKNEQKFKVTKIITYESYNKPLQLSHDVALLKLESSATLNDFTNLACLPSTNPTTG--SFCAITGWGTLKQNGGQPAKLQVVRVPIIQQETCQRY--YPKAIHGSMVCAGFSEGGKDSCQGDSGGPMVCKGTDGRYSLHGVTSWGSGCAQPRKPGVYARVSFLLKWIKDNINNN</Hsp_qseq>
+      <Hsp_hseq>GRVVGGCVAHPHSWPWQVSLRTRFGMHFCGGTLISPEWVLTAAHCLEKSPRPSSYKVILGAHQEV---NLEPHVQEIEVSRL-----FLEPTR--KDIALLKLSSPAVITDKVIPACLPSPNYVVADRTECFITGWGETQGTFGA-GLLKEAQLPVIENKVCNRYEFLNGRVQSTELCAGHLAGGTDSCQGDAGGPLVCFEKD-KYILQGVTSWGLGCARPNKPGVYVRVSRFVTWIEGVMRNN</Hsp_hseq>
+      <Hsp_midline> R+VGG  A+P  WPWQ  L+T  G  FCGGTLI P+WVL+AAHC+E+S +P    + +GAH  V   +   + Q+ +V+++     + +P +   D+ALLKL S A + D    ACLPS N      + C ITGWG  +   G    L+  ++P+I+ + C RY      +  + +CAG   GG DSCQGD+GGP+VC   D +Y L GVTSWG GCA+P KPGVY RVS  + WI+  + NN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>pdb|1L4Z|A</Hit_id>
+  <Hit_def>Chain A, Plasminogen [Homo sapiens]</Hit_def>
+  <Hit_accession>1L4Z_A</Hit_accession>
+  <Hit_len>248</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>193.356</Hsp_bit-score>
+      <Hsp_score>490</Hsp_score>
+      <Hsp_evalue>3.97011e-55</Hsp_evalue>
+      <Hsp_query-from>1205</Hsp_query-from>
+      <Hsp_query-to>1443</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>248</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>107</Hsp_identity>
+      <Hsp_positive>147</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>244</Hsp_align-len>
+      <Hsp_qseq>ARIVGGQEANPGDWPWQALLQTPRGSQFCGGTLIHPQWVLSAAHCVERS-KPQDIVIRMGAHYRVEKSSTSKNEQKFKVTKIITYESYNKPLQLSHDVALLKLESSATLNDFTNLACLPSTNPTTG--SFCAITGWGTLKQNGGQPAKLQVVRVPIIQQETCQRY--YPKAIHGSMVCAGFSEGGKDSCQGDSGGPMVCKGTDGRYSLHGVTSWGSGCAQPRKPGVYARVSFLLKWIKDNINNN</Hsp_qseq>
+      <Hsp_hseq>GRVVGGCVAHPHSWPWQVSLRTRFGMHFCGGTLISPEWVLTAAHCLEKSPRPSSYKVILGAHQEV---NLEPHVQEIEVSRL-----FLEPTR--KDIALLKLSSPAVITDKVIPACLPSPNYVVADRTECFITGWGETQGTFGA-GLLKEAQLPVIENKVCNRYEFLNGRVQSTELCAGHLAGGTDSCQGDAGGPLVCFEKD-KYILQGVTSWGLGCARPNKPGVYVRVSRFVTWIEGVMRNN</Hsp_hseq>
+      <Hsp_midline> R+VGG  A+P  WPWQ  L+T  G  FCGGTLI P+WVL+AAHC+E+S +P    + +GAH  V   +   + Q+ +V+++     + +P +   D+ALLKL S A + D    ACLPS N      + C ITGWG  +   G    L+  ++P+I+ + C RY      +  + +CAG   GG DSCQGD+GGP+VC   D +Y L GVTSWG GCA+P KPGVY RVS  + WI+  + NN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>pdb|1DDJ|A</Hit_id>
+  <Hit_def>Chain A, Crystal Structure Of Human Plasminogen Catalytic Domain [Homo sapiens] &gt;pdb|1DDJ|B Chain B, Crystal Structure Of Human Plasminogen Catalytic Domain [Homo sapiens] &gt;pdb|1DDJ|C Chain C, Crystal Structure Of Human Plasminogen Catalytic Domain [Homo sapiens] &gt;pdb|1DDJ|D Chain D, Crystal Structure Of Human Plasminogen Catalytic Domain [Homo sapiens]</Hit_def>
+  <Hit_accession>1DDJ_A</Hit_accession>
+  <Hit_len>247</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>193.356</Hsp_bit-score>
+      <Hsp_score>490</Hsp_score>
+      <Hsp_evalue>4.0398e-55</Hsp_evalue>
+      <Hsp_query-from>1205</Hsp_query-from>
+      <Hsp_query-to>1443</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>247</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>107</Hsp_identity>
+      <Hsp_positive>147</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>244</Hsp_align-len>
+      <Hsp_qseq>ARIVGGQEANPGDWPWQALLQTPRGSQFCGGTLIHPQWVLSAAHCVERS-KPQDIVIRMGAHYRVEKSSTSKNEQKFKVTKIITYESYNKPLQLSHDVALLKLESSATLNDFTNLACLPSTNPTTG--SFCAITGWGTLKQNGGQPAKLQVVRVPIIQQETCQRY--YPKAIHGSMVCAGFSEGGKDSCQGDSGGPMVCKGTDGRYSLHGVTSWGSGCAQPRKPGVYARVSFLLKWIKDNINNN</Hsp_qseq>
+      <Hsp_hseq>GRVVGGCVAHPHSWPWQVSLRTRFGMHFCGGTLISPEWVLTAAHCLEKSPRPSSYKVILGAHQEV---NLEPHVQEIEVSRL-----FLEPTR--KDIALLKLSSPAVITDKVIPACLPSPNYVVADRTECFITGWGETQGTFGA-GLLKEAQLPVIENKVCNRYEFLNGRVQSTELCAGHLAGGTDSCQGDAGGPLVCFEKD-KYILQGVTSWGLGCARPNKPGVYVRVSRFVTWIEGVMRNN</Hsp_hseq>
+      <Hsp_midline> R+VGG  A+P  WPWQ  L+T  G  FCGGTLI P+WVL+AAHC+E+S +P    + +GAH  V   +   + Q+ +V+++     + +P +   D+ALLKL S A + D    ACLPS N      + C ITGWG  +   G    L+  ++P+I+ + C RY      +  + +CAG   GG DSCQGD+GGP+VC   D +Y L GVTSWG GCA+P KPGVY RVS  + WI+  + NN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>pdb|6D3Z|A</Hit_id>
+  <Hit_def>Chain A, Plasminogen [Homo sapiens]</Hit_def>
+  <Hit_accession>6D3Z_A</Hit_accession>
+  <Hit_len>246</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>193.356</Hsp_bit-score>
+      <Hsp_score>490</Hsp_score>
+      <Hsp_evalue>4.2723e-55</Hsp_evalue>
+      <Hsp_query-from>1205</Hsp_query-from>
+      <Hsp_query-to>1443</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>246</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>107</Hsp_identity>
+      <Hsp_positive>147</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>244</Hsp_align-len>
+      <Hsp_qseq>ARIVGGQEANPGDWPWQALLQTPRGSQFCGGTLIHPQWVLSAAHCVERS-KPQDIVIRMGAHYRVEKSSTSKNEQKFKVTKIITYESYNKPLQLSHDVALLKLESSATLNDFTNLACLPSTNPTTG--SFCAITGWGTLKQNGGQPAKLQVVRVPIIQQETCQRY--YPKAIHGSMVCAGFSEGGKDSCQGDSGGPMVCKGTDGRYSLHGVTSWGSGCAQPRKPGVYARVSFLLKWIKDNINNN</Hsp_qseq>
+      <Hsp_hseq>GRVVGGCVAHPHSWPWQVSLRTRFGMHFCGGTLISPEWVLTAAHCLEKSPRPSSYKVILGAHQEV---NLEPHVQEIEVSRL-----FLEPTR--KDIALLKLSSPAVITDKVIPACLPSPNYVVADRTECFITGWGETQGTFGA-GLLKEAQLPVIENKVCNRYEFLNGRVQSTELCAGHLAGGTDSCQGDAGGPLVCFEKD-KYILQGVTSWGLGCARPNKPGVYVRVSRFVTWIEGVMRNN</Hsp_hseq>
+      <Hsp_midline> R+VGG  A+P  WPWQ  L+T  G  FCGGTLI P+WVL+AAHC+E+S +P    + +GAH  V   +   + Q+ +V+++     + +P +   D+ALLKL S A + D    ACLPS N      + C ITGWG  +   G    L+  ++P+I+ + C RY      +  + +CAG   GG DSCQGD+GGP+VC   D +Y L GVTSWG GCA+P KPGVY RVS  + WI+  + NN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>pdb|3MYW|A</Hit_id>
+  <Hit_def>Chain A, Trypsin [Sus scrofa] &gt;pdb|3MYW|B Chain B, Trypsin [Sus scrofa]</Hit_def>
+  <Hit_accession>3MYW_A</Hit_accession>
+  <Hit_len>223</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>192.2</Hsp_bit-score>
+      <Hsp_score>487</Hsp_score>
+      <Hsp_evalue>4.78292e-55</Hsp_evalue>
+      <Hsp_query-from>1207</Hsp_query-from>
+      <Hsp_query-to>1443</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>223</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>104</Hsp_identity>
+      <Hsp_positive>136</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>IVGGQEANPGDWPWQALLQTPRGSQFCGGTLIHPQWVLSAAHCVERSKPQDIVIRMGAHYRVEKSSTSKNEQKFKVTKIITYESYNKPLQLSHDVALLKLESSATLNDFTNLACLPSTNPTTGSFCAITGWGTLKQNGGQ-PAKLQVVRVPIIQQETCQRYYPKAIHGSMVCAGFSEGGKDSCQGDSGGPMVCKGTDGRYSLHGVTSWGSGCAQPRKPGVYARVSFLLKWIKDNINNN</Hsp_qseq>
+      <Hsp_hseq>IVGGYTCAANSVPYQVSLNS--GSHFCGGSLINSQWVVSAAHCYKS----RIQVRLGEH---NIDVLEGNEQFINAAKIITHPNFNGN-TLDNDIMLIKLSSPATLNSRVATVSLPRSCAAAGTECLISGWGNTKSSGSSYPSLLQCLKAPVLSDSSCKSAYPGQITGNMICVGFLEGGKDSCQGDSGGPVVCNG-----QLQGIVSWGYGCAQKNKPGVYTKVCNYVNWIQQTIAAN</Hsp_hseq>
+      <Hsp_midline>IVGG        P+Q  L +  GS FCGG+LI+ QWV+SAAHC +      I +R+G H          NEQ     KIIT+ ++N    L +D+ L+KL S ATLN       LP +    G+ C I+GWG  K +G   P+ LQ ++ P++   +C+  YP  I G+M+C GF EGGKDSCQGDSGGP+VC G      L G+ SWG GCAQ  KPGVY +V   + WI+  I  N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>pdb|1AVW|A</Hit_id>
+  <Hit_def>Chain A, Complex Porcine Pancreatic TrypsinSOYBEAN TRYPSIN Inhibitor, Orthorhombic Crystal Form [Sus scrofa] &gt;pdb|1AVX|A Chain A, Complex Porcine Pancreatic TrypsinSOYBEAN TRYPSIN Inhibitor, Tetragonal Crystal Form [Sus scrofa] &gt;pdb|1EJA|A Chain A, Trypsin [Sus scrofa] &gt;pdb|1H9I|E Chain E, TRYPSIN [Sus scrofa] &gt;pdb|1LDT|T Chain T, Trypsin [Sus scrofa] &gt;pdb|1S5S|A Chain A, Trypsin [Sus scrofa] &gt;pdb|1S6F|A Chain A, Trypsin [Sus scrofa] &gt;pdb|1S6H|A Chain A, Trypsin [Sus scrofa] &gt;pdb|1S81|A Chain A, TRYPSIN [Sus scrofa] &gt;pdb|1S82|A Chain A, TRYPSIN [Sus scrofa] &gt;pdb|1S83|A Chain A, TRYPSIN [Sus scrofa] &gt;pdb|1S84|A Chain A, TRYPSIN [Sus scrofa] &gt;pdb|1S85|A Chain A, TRYPSIN [Sus scrofa] &gt;pdb|1TFX|A Chain A, Trypsin [Sus scrofa] &gt;pdb|1TFX|B Chain B, Trypsin [Sus scrofa] &gt;pdb|1TX6|A Chain A, Trypsin [Sus scrofa] &gt;pdb|1TX6|B Chain B, Trypsin [Sus scrofa] &gt;pdb|1TX6|C Chain C, Trypsin [Sus scrofa] &gt;pdb|1TX6|D Chain D, Trypsin [Sus scrofa] &gt;pdb|1V6D|A Chain A, Trypsin [Sus scrofa] &gt;pdb|1YF4|A Chain A, Trypsin [Sus scrofa] &gt;pdb|1Z7K|A Chain A, Trypsin [Sus scrofa] &gt;pdb|2A31|A Chain A, Trypsin [Sus scrofa] &gt;pdb|2A32|A Chain A, Trypsin [Sus scrofa] &gt;pdb|4DOQ|A Chain A, Trypsin [Sus scrofa] &gt;pdb|4DOQ|C Chain C, Trypsin [Sus scrofa] &gt;pdb|4DOQ|E Chain E, Trypsin [Sus scrofa]</Hit_def>
+  <Hit_accession>1AVW_A</Hit_accession>
+  <Hit_len>223</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>192.2</Hsp_bit-score>
+      <Hsp_score>487</Hsp_score>
+      <Hsp_evalue>4.82933e-55</Hsp_evalue>
+      <Hsp_query-from>1207</Hsp_query-from>
+      <Hsp_query-to>1443</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>223</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>104</Hsp_identity>
+      <Hsp_positive>136</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>IVGGQEANPGDWPWQALLQTPRGSQFCGGTLIHPQWVLSAAHCVERSKPQDIVIRMGAHYRVEKSSTSKNEQKFKVTKIITYESYNKPLQLSHDVALLKLESSATLNDFTNLACLPSTNPTTGSFCAITGWGTLKQNGGQ-PAKLQVVRVPIIQQETCQRYYPKAIHGSMVCAGFSEGGKDSCQGDSGGPMVCKGTDGRYSLHGVTSWGSGCAQPRKPGVYARVSFLLKWIKDNINNN</Hsp_qseq>
+      <Hsp_hseq>IVGGYTCAANSIPYQVSLNS--GSHFCGGSLINSQWVVSAAHCYKS----RIQVRLGEH---NIDVLEGNEQFINAAKIITHPNFNGN-TLDNDIMLIKLSSPATLNSRVATVSLPRSCAAAGTECLISGWGNTKSSGSSYPSLLQCLKAPVLSDSSCKSSYPGQITGNMICVGFLEGGKDSCQGDSGGPVVCNG-----QLQGIVSWGYGCAQKNKPGVYTKVCNYVNWIQQTIAAN</Hsp_hseq>
+      <Hsp_midline>IVGG        P+Q  L +  GS FCGG+LI+ QWV+SAAHC +      I +R+G H          NEQ     KIIT+ ++N    L +D+ L+KL S ATLN       LP +    G+ C I+GWG  K +G   P+ LQ ++ P++   +C+  YP  I G+M+C GF EGGKDSCQGDSGGP+VC G      L G+ SWG GCAQ  KPGVY +V   + WI+  I  N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>pdb|1EZX|C</Hit_id>
+  <Hit_def>Chain C, Crystal Structure Of A Serpin:protease Complex [Bos taurus] &gt;pdb|1F0T|A Chain A, Bovine Trypsin Complexed With Rpr131247 [Bos taurus] &gt;pdb|1F0U|A Chain A, Bovine Trypsin Complexed With Rpr128515 [Bos taurus] &gt;pdb|1LQE|A Chain A, Trypsin [Bos taurus] &gt;pdb|2BY5|X Chain X, Is Radiation Damage Dependent On The Dose-Rate Used During Macromolecular Crystallography Data Collection [Bos taurus] &gt;pdb|2BY6|X Chain X, Is Radiation Damage Dependent On The Dose-Rate Used During Macromolecular Crystallography Data Collection [Bos taurus] &gt;pdb|2BY7|X Chain X, Is Radiation Damage Dependent On The Dose-Rate Used During Macromolecular Crystallography Data Collection [Bos taurus] &gt;pdb|2BY8|X Chain X, Is Radiation Damage Dependent On The Dose-Rate Used During Macromolecular Crystallography Data Collection [Bos taurus] &gt;pdb|2BY9|X Chain X, Is Radiation Damage Dependent On The Dose-Rate Used During Macromolecular Crystallography Data Collection [Bos taurus] &gt;pdb|2BYA|X Chain X, Is Radiation Damage Dependent On The Dose-Rate Used During Macromolecular Crystallography Data Collection [Bos taurus]</Hit_def>
+  <Hit_accession>1EZX_C</Hit_accession>
+  <Hit_len>243</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>192.586</Hsp_bit-score>
+      <Hsp_score>488</Hsp_score>
+      <Hsp_evalue>6.36891e-55</Hsp_evalue>
+      <Hsp_query-from>1206</Hsp_query-from>
+      <Hsp_query-to>1443</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>243</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>140</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>RIVGGQEANPGDWPWQALLQTPRGSQFCGGTLIHPQWVLSAAHCVERSKPQDIVIRMGAHYRVEKSSTSKNEQKFKVTKIITYESYNKPLQLSHDVALLKLESSATLNDFTNLACLPSTNPTTGSFCAITGWGTLKQNGGQ-PAKLQVVRVPIIQQETCQRYYPKAIHGSMVCAGFSEGGKDSCQGDSGGPMVCKGTDGRYSLHGVTSWGSGCAQPRKPGVYARVSFLLKWIKDNINNN</Hsp_qseq>
+      <Hsp_hseq>KIVGGYTCGANTVPYQVSLNS--GYHFCGGSLINSQWVVSAAHCYKSG----IQVRLGED---NINVVEGNEQFISASKSIVHPSYNSN-TLNNDIMLIKLKSAASLNSRVASISLPTSCASAGTQCLISGWGNTKSSGTSYPDVLKCLKAPILSDSSCKSAYPGQITSNMFCAGYLEGGKDSCQGDSGGPVVCSG-----KLQGIVSWGSGCAQKNKPGVYTKVCNYVSWIKQTIASN</Hsp_hseq>
+      <Hsp_midline>+IVGG        P+Q  L +  G  FCGG+LI+ QWV+SAAHC +      I +R+G       +    NEQ    +K I + SYN    L++D+ L+KL+S+A+LN       LP++  + G+ C I+GWG  K +G   P  L+ ++ PI+   +C+  YP  I  +M CAG+ EGGKDSCQGDSGGP+VC G      L G+ SWGSGCAQ  KPGVY +V   + WIK  I +N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>pdb|4GUX|A</Hit_id>
+  <Hit_def>Chain A, Cationic Trypsin [Bos taurus] &gt;pdb|4GUX|B Chain B, Cationic Trypsin [Bos taurus] &gt;pdb|4GUX|C Chain C, Cationic Trypsin [Bos taurus] &gt;pdb|4XOJ|A Chain A, Cationic Trypsin [Bos taurus] &gt;pdb|5FXL|A Chain A, Cationic Trypsin [Bos taurus] &gt;pdb|5JYI|A Chain A, Cationic Trypsin [Bos taurus] &gt;pdb|6QL0|A Chain A, Cationic trypsin [Bos taurus] &gt;pdb|6SY3|A Chain A, Cationic Trypsin [Bos taurus] &gt;pdb|6T0M|A Chain A, Cationic trypsin [Bos taurus] &gt;pdb|6T0P|A Chain A, Cationic Trypsin [Bos taurus] &gt;pdb|6T5W|A Chain A, Cationic Trypsin [Bos taurus]</Hit_def>
+  <Hit_accession>4GUX_A</Hit_accession>
+  <Hit_len>246</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>192.586</Hsp_bit-score>
+      <Hsp_score>488</Hsp_score>
+      <Hsp_evalue>7.99723e-55</Hsp_evalue>
+      <Hsp_query-from>1206</Hsp_query-from>
+      <Hsp_query-to>1443</Hsp_query-to>
+      <Hsp_hit-from>23</Hsp_hit-from>
+      <Hsp_hit-to>246</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>140</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>RIVGGQEANPGDWPWQALLQTPRGSQFCGGTLIHPQWVLSAAHCVERSKPQDIVIRMGAHYRVEKSSTSKNEQKFKVTKIITYESYNKPLQLSHDVALLKLESSATLNDFTNLACLPSTNPTTGSFCAITGWGTLKQNGGQ-PAKLQVVRVPIIQQETCQRYYPKAIHGSMVCAGFSEGGKDSCQGDSGGPMVCKGTDGRYSLHGVTSWGSGCAQPRKPGVYARVSFLLKWIKDNINNN</Hsp_qseq>
+      <Hsp_hseq>KIVGGYTCGANTVPYQVSLNS--GYHFCGGSLINSQWVVSAAHCYKSG----IQVRLGED---NINVVEGNEQFISASKSIVHPSYNSN-TLNNDIMLIKLKSAASLNSRVASISLPTSCASAGTQCLISGWGNTKSSGTSYPDVLKCLKAPILSDSSCKSAYPGQITSNMFCAGYLEGGKDSCQGDSGGPVVCSG-----KLQGIVSWGSGCAQKNKPGVYTKVCNYVSWIKQTIASN</Hsp_hseq>
+      <Hsp_midline>+IVGG        P+Q  L +  G  FCGG+LI+ QWV+SAAHC +      I +R+G       +    NEQ    +K I + SYN    L++D+ L+KL+S+A+LN       LP++  + G+ C I+GWG  K +G   P  L+ ++ PI+   +C+  YP  I  +M CAG+ EGGKDSCQGDSGGP+VC G      L G+ SWGSGCAQ  KPGVY +V   + WIK  I +N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>pdb|1OPH|B</Hit_id>
+  <Hit_def>Chain B, Non-Covalent Complex Between Alpha-1-Pi-Pittsburgh And S195a Trypsin [Bos taurus]</Hit_def>
+  <Hit_accession>1OPH_B</Hit_accession>
+  <Hit_len>243</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>192.2</Hsp_bit-score>
+      <Hsp_score>487</Hsp_score>
+      <Hsp_evalue>1.15828e-54</Hsp_evalue>
+      <Hsp_query-from>1206</Hsp_query-from>
+      <Hsp_query-to>1443</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>243</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>101</Hsp_identity>
+      <Hsp_positive>140</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>RIVGGQEANPGDWPWQALLQTPRGSQFCGGTLIHPQWVLSAAHCVERSKPQDIVIRMGAHYRVEKSSTSKNEQKFKVTKIITYESYNKPLQLSHDVALLKLESSATLNDFTNLACLPSTNPTTGSFCAITGWGTLKQNGGQ-PAKLQVVRVPIIQQETCQRYYPKAIHGSMVCAGFSEGGKDSCQGDSGGPMVCKGTDGRYSLHGVTSWGSGCAQPRKPGVYARVSFLLKWIKDNINNN</Hsp_qseq>
+      <Hsp_hseq>KIVGGYTCGANTVPYQVSLNS--GYHFCGGSLINSQWVVSAAHCYKSG----IQVRLGED---NINVVEGNEQFISASKSIVHPSYNSN-TLNNDIMLIKLKSAASLNSRVASISLPTSCASAGTQCLISGWGNTKSSGTSYPDVLKCLKAPILSDSSCKSAYPGQITSNMFCAGYLEGGKDSCQGDAGGPVVCSG-----KLQGIVSWGSGCAQKNKPGVYTKVCNYVSWIKQTIASN</Hsp_hseq>
+      <Hsp_midline>+IVGG        P+Q  L +  G  FCGG+LI+ QWV+SAAHC +      I +R+G       +    NEQ    +K I + SYN    L++D+ L+KL+S+A+LN       LP++  + G+ C I+GWG  K +G   P  L+ ++ PI+   +C+  YP  I  +M CAG+ EGGKDSCQGD+GGP+VC G      L G+ SWGSGCAQ  KPGVY +V   + WIK  I +N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>pdb|1FMG|A</Hit_id>
+  <Hit_def>Chain A, TRYPSIN [Sus scrofa] &gt;pdb|1FN6|A Chain A, TRYPSIN [Sus scrofa] &gt;pdb|1FNI|A Chain A, TRYPSIN [Sus scrofa] &gt;pdb|1MCT|A Chain A, Beta-trypsin [Sus scrofa] &gt;pdb|1QQU|A Chain A, Beta Trypsin [Sus scrofa]</Hit_def>
+  <Hit_accession>1FMG_A</Hit_accession>
+  <Hit_len>223</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>191.045</Hsp_bit-score>
+      <Hsp_score>484</Hsp_score>
+      <Hsp_evalue>1.38366e-54</Hsp_evalue>
+      <Hsp_query-from>1207</Hsp_query-from>
+      <Hsp_query-to>1443</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>223</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>103</Hsp_identity>
+      <Hsp_positive>136</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>IVGGQEANPGDWPWQALLQTPRGSQFCGGTLIHPQWVLSAAHCVERSKPQDIVIRMGAHYRVEKSSTSKNEQKFKVTKIITYESYNKPLQLSHDVALLKLESSATLNDFTNLACLPSTNPTTGSFCAITGWGTLKQNGGQ-PAKLQVVRVPIIQQETCQRYYPKAIHGSMVCAGFSEGGKDSCQGDSGGPMVCKGTDGRYSLHGVTSWGSGCAQPRKPGVYARVSFLLKWIKDNINNN</Hsp_qseq>
+      <Hsp_hseq>IVGGYTCAANSIPYQVSLNS--GSHFCGGSLINSQWVVSAAHCYKS----RIQVRLGEH---NIDVLEGNEQFINAAKIITHPNFNGN-TLDNDIMLIKLSSPATLNSRVATVSLPRSCAAAGTECLISGWGNTKSSGSSYPSLLQCLKAPVLSNSSCKSSYPGQITGNMICVGFLQGGKDSCQGDSGGPVVCNG-----QLQGIVSWGYGCAQKNKPGVYTKVCNYVNWIQQTIAAN</Hsp_hseq>
+      <Hsp_midline>IVGG        P+Q  L +  GS FCGG+LI+ QWV+SAAHC +      I +R+G H          NEQ     KIIT+ ++N    L +D+ L+KL S ATLN       LP +    G+ C I+GWG  K +G   P+ LQ ++ P++   +C+  YP  I G+M+C GF +GGKDSCQGDSGGP+VC G      L G+ SWG GCAQ  KPGVY +V   + WI+  I  N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>pdb|1RJX|B</Hit_id>
+  <Hit_def>Chain B, Plasminogen [Homo sapiens]</Hit_def>
+  <Hit_accession>1RJX_B</Hit_accession>
+  <Hit_len>247</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>191.815</Hsp_bit-score>
+      <Hsp_score>486</Hsp_score>
+      <Hsp_evalue>1.48532e-54</Hsp_evalue>
+      <Hsp_query-from>1201</Hsp_query-from>
+      <Hsp_query-to>1443</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>247</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>110</Hsp_identity>
+      <Hsp_positive>147</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>248</Hsp_align-len>
+      <Hsp_qseq>KGPNARIVGGQEANPGDWPWQALLQTPRGSQFCGGTLIHPQWVLSAAHCVERS-KPQDIVIRMGAHYRVEKSSTSKNEQKFKVTKIITYESYNKPLQLSHDVALLKLESSATLNDFTNLACLPSTNPTTG--SFCAITGWGTLKQNGGQPAKLQVVRVPIIQQETCQRY--YPKAIHGSMVCAGFSEGGKDSCQGDSGGPMVCKGTDGRYSLHGVTSWGSGCAQPRKPGVYARVSFLLKWIKDNINNN</Hsp_qseq>
+      <Hsp_hseq>KCPGA-VVGGCVAYPHSWPWQVSLRTRFGMHFCGGTLISPEWVLTAAHCLEKSPRPSSYKVILGAHQEV---NLEPHVQEIEVSRL-----FLEPTR--KDIALLKLSSPAVITDKVIPACLPSPNYVVADRTECFITGWGETQGTFGA-GLLMEAQLPVIENKVCNRYEFLNGRVQSTELCAGHLAGGTDSCQGDSGGPLVCFEKD-KYILQGVTSWGLGCARPNKPGVYVRVSRFVTWIEGVMRNN</Hsp_hseq>
+      <Hsp_midline>K P A +VGG  A P  WPWQ  L+T  G  FCGGTLI P+WVL+AAHC+E+S +P    + +GAH  V   +   + Q+ +V+++     + +P +   D+ALLKL S A + D    ACLPS N      + C ITGWG  +   G    L   ++P+I+ + C RY      +  + +CAG   GG DSCQGDSGGP+VC   D +Y L GVTSWG GCA+P KPGVY RVS  + WI+  + NN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>pdb|1CO7|E</Hit_id>
+  <Hit_def>Chain E, TRYPSIN II [Rattus norvegicus]</Hit_def>
+  <Hit_accession>1CO7_E</Hit_accession>
+  <Hit_len>245</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>191.045</Hsp_bit-score>
+      <Hsp_score>484</Hsp_score>
+      <Hsp_evalue>2.61427e-54</Hsp_evalue>
+      <Hsp_query-from>1206</Hsp_query-from>
+      <Hsp_query-to>1443</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>245</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>101</Hsp_identity>
+      <Hsp_positive>134</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>RIVGGQEANPGDWPWQALLQTPRGSQFCGGTLIHPQWVLSAAHCVERSKPQDIVIRMGAHYRVEKSSTSKNEQKFKVTKIITYESYNKPLQLSHDVALLKLESSATLNDFTNLACLPSTNPTTGSFCAITGWG-TLKQNGGQPAKLQVVRVPIIQQETCQRYYPKAIHGSMVCAGFSEGGKDSCQGDSGGPMVCKGTDGRYSLHGVTSWGSGCAQPRKPGVYARVSFLLKWIKDNINNN</Hsp_qseq>
+      <Hsp_hseq>KIVGGYTCQENSVPYQVSLNS--GYHFCGGSLINDQWVVSAAHCYKSR----IQVRLGEH---NINVLEGNEQFVNAAKIIKHPNFDRK-TLNNDIMLIKLSSPVKLNAHVATVALPSSCAPAGTQCLISGWGNTLSSGVNEPDLLQCLDAPLLPQADCEASYPGKITDNMVCVGFLEGGKDSCQGDSGGPVVCNG-----ELQGIVSWGYGCALPDNPGVYTKVCNYVDWIQDTIAAN</Hsp_hseq>
+      <Hsp_midline>+IVGG        P+Q  L +  G  FCGG+LI+ QWV+SAAHC +      I +R+G H     +    NEQ     KII + ++++   L++D+ L+KL S   LN       LPS+    G+ C I+GWG TL     +P  LQ +  P++ Q  C+  YP  I  +MVC GF EGGKDSCQGDSGGP+VC G      L G+ SWG GCA P  PGVY +V   + WI+D I  N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>pdb|1AN1|E</Hit_id>
+  <Hit_def>Chain E, Leech-Derived Tryptase InhibitorTRYPSIN COMPLEX [Sus scrofa] &gt;pdb|1C9P|A Chain A, Trypsin [Sus scrofa]</Hit_def>
+  <Hit_accession>1AN1_E</Hit_accession>
+  <Hit_len>223</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>189.889</Hsp_bit-score>
+      <Hsp_score>481</Hsp_score>
+      <Hsp_evalue>3.851e-54</Hsp_evalue>
+      <Hsp_query-from>1207</Hsp_query-from>
+      <Hsp_query-to>1443</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>223</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>103</Hsp_identity>
+      <Hsp_positive>135</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>IVGGQEANPGDWPWQALLQTPRGSQFCGGTLIHPQWVLSAAHCVERSKPQDIVIRMGAHYRVEKSSTSKNEQKFKVTKIITYESYNKPLQLSHDVALLKLESSATLNDFTNLACLPSTNPTTGSFCAITGWGTLKQNGGQ-PAKLQVVRVPIIQQETCQRYYPKAIHGSMVCAGFSEGGKDSCQGDSGGPMVCKGTDGRYSLHGVTSWGSGCAQPRKPGVYARVSFLLKWIKDNINNN</Hsp_qseq>
+      <Hsp_hseq>IVGGYTCAANSIPYQVSLNS--GSHFCGGSLINSQWVVSAAHCYKS----RIQVRLGEH---NIDVLEGNEQFINAAKIITHPNFNGN-TLDNDIMLIKLSSPATLXSRVATVSLPRSCAAAGTECLISGWGNTKSSGSSYPSLLQCLKAPVLSDSSCKSSYPGQITGNMICVGFLEGGKDSCQGDSGGPVVCNG-----QLQGIVSWGYGCAQKNKPGVYTKVCNYVNWIQQTIAAN</Hsp_hseq>
+      <Hsp_midline>IVGG        P+Q  L +  GS FCGG+LI+ QWV+SAAHC +      I +R+G H          NEQ     KIIT+ ++N    L +D+ L+KL S ATL        LP +    G+ C I+GWG  K +G   P+ LQ ++ P++   +C+  YP  I G+M+C GF EGGKDSCQGDSGGP+VC G      L G+ SWG GCAQ  KPGVY +V   + WI+  I  N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>pdb|1TRN|A</Hit_id>
+  <Hit_def>Chain A, Trypsin [Homo sapiens] &gt;pdb|1TRN|B Chain B, Trypsin [Homo sapiens]</Hit_def>
+  <Hit_accession>1TRN_A</Hit_accession>
+  <Hit_len>224</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>189.504</Hsp_bit-score>
+      <Hsp_score>480</Hsp_score>
+      <Hsp_evalue>4.41899e-54</Hsp_evalue>
+      <Hsp_query-from>1207</Hsp_query-from>
+      <Hsp_query-to>1443</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>223</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>104</Hsp_identity>
+      <Hsp_positive>136</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>IVGGQEANPGDWPWQALLQTPRGSQFCGGTLIHPQWVLSAAHCVERSKPQDIVIRMGAHYRVEKSSTSKNEQKFKVTKIITYESYNKPLQLSHDVALLKLESSATLNDFTNLACLPSTNPTTGSFCAITGWGTLKQNGGQ-PAKLQVVRVPIIQQETCQRYYPKAIHGSMVCAGFSEGGKDSCQGDSGGPMVCKGTDGRYSLHGVTSWGSGCAQPRKPGVYARVSFLLKWIKDNINNN</Hsp_qseq>
+      <Hsp_hseq>IVGGYNCEENSVPYQVSLNS--GYHFCGGSLINEQWVVSAGHCYKSR----IQVRLGEH-NIE--VLEGNEQFINAAKIIRHPQYDRK-TLNNDIMLIKLSSRAVINARVSTISLPTAPPATGTKCLISGWGNTASSGADXPDELQCLDAPVLSQAKCEASYPGKITSNMFCVGFLEGGKDSCQGDSGGPVVCNG-----QLQGVVSWGDGCAQKNKPGVYTKVYNYVKWIKNTIAAN</Hsp_hseq>
+      <Hsp_midline>IVGG        P+Q  L +  G  FCGG+LI+ QWV+SA HC +      I +R+G H  +E      NEQ     KII +  Y++   L++D+ L+KL S A +N   +   LP+  P TG+ C I+GWG    +G   P +LQ +  P++ Q  C+  YP  I  +M C GF EGGKDSCQGDSGGP+VC G      L GV SWG GCAQ  KPGVY +V   +KWIK+ I  N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>pdb|1UTN|A</Hit_id>
+  <Hit_def>Chain A, TRYPSINOGEN [Bos taurus] &gt;pdb|1UTO|A Chain A, TRYPSINOGEN [Bos taurus] &gt;pdb|1UTP|A Chain A, TRYPSINOGEN [Bos taurus]</Hit_def>
+  <Hit_accession>1UTN_A</Hit_accession>
+  <Hit_len>243</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>190.274</Hsp_bit-score>
+      <Hsp_score>482</Hsp_score>
+      <Hsp_evalue>4.64593e-54</Hsp_evalue>
+      <Hsp_query-from>1206</Hsp_query-from>
+      <Hsp_query-to>1443</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>243</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>101</Hsp_identity>
+      <Hsp_positive>139</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>RIVGGQEANPGDWPWQALLQTPRGSQFCGGTLIHPQWVLSAAHCVERSKPQDIVIRMGAHYRVEKSSTSKNEQKFKVTKIITYESYNKPLQLSHDVALLKLESSATLNDFTNLACLPSTNPTTGSFCAITGWGTLKQNGGQ-PAKLQVVRVPIIQQETCQRYYPKAIHGSMVCAGFSEGGKDSCQGDSGGPMVCKGTDGRYSLHGVTSWGSGCAQPRKPGVYARVSFLLKWIKDNINNN</Hsp_qseq>
+      <Hsp_hseq>KXVGGYTCGANTVPYQVSLNS--GYHFCGGSLINSQWVVSAAHCYKSG----IQVRLGED---NINVVEGNEQFISASKSIVHPSYNSN-TLNNDIMLIKLKSAASLNSRVASISLPTSCASAGTQCLISGWGNTKSSGTSYPDVLKCLKAPILSDSSCKSAYPGQITSNMFCAGYLEGGKDSCQGDSGGPVVCSG-----KLQGIVSWGSGCAQKNKPGVYTKVCNYVSWIKQTIASN</Hsp_hseq>
+      <Hsp_midline>+ VGG        P+Q  L +  G  FCGG+LI+ QWV+SAAHC +      I +R+G       +    NEQ    +K I + SYN    L++D+ L+KL+S+A+LN       LP++  + G+ C I+GWG  K +G   P  L+ ++ PI+   +C+  YP  I  +M CAG+ EGGKDSCQGDSGGP+VC G      L G+ SWGSGCAQ  KPGVY +V   + WIK  I +N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>pdb|4WXV|A</Hit_id>
+  <Hit_def>Chain A, Trypsin-1 [Homo sapiens] &gt;pdb|4WXV|B Chain B, Trypsin-1 [Homo sapiens]</Hit_def>
+  <Hit_accession>4WXV_A</Hit_accession>
+  <Hit_len>224</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>189.504</Hsp_bit-score>
+      <Hsp_score>480</Hsp_score>
+      <Hsp_evalue>5.46487e-54</Hsp_evalue>
+      <Hsp_query-from>1207</Hsp_query-from>
+      <Hsp_query-to>1443</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>223</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>103</Hsp_identity>
+      <Hsp_positive>136</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>IVGGQEANPGDWPWQALLQTPRGSQFCGGTLIHPQWVLSAAHCVERSKPQDIVIRMGAHYRVEKSSTSKNEQKFKVTKIITYESYNKPLQLSHDVALLKLESSATLNDFTNLACLPSTNPTTGSFCAITGWGTLKQNGGQ-PAKLQVVRVPIIQQETCQRYYPKAIHGSMVCAGFSEGGKDSCQGDSGGPMVCKGTDGRYSLHGVTSWGSGCAQPRKPGVYARVSFLLKWIKDNINNN</Hsp_qseq>
+      <Hsp_hseq>IVGGYNCEENSVPYQVSLNS--GYHFCGGSLINEQWVVSAGHCYKSR----IQVRLGEH-NIE--VLEGNEQFINAAKIIRHPQYDRD-TLNNDIMLIKLSSRAVINAHVSTISLPTAPPATGTKCLISGWGNTASSGADYPDELQCLDAPVLSQAKCEASYPGKITSNMFCVGFLEGGKDSCQGDAGGPVVCNG-----QLQGVVSWGDGCAQKNKPGVYTKVYNYVKWIKNTIAAN</Hsp_hseq>
+      <Hsp_midline>IVGG        P+Q  L +  G  FCGG+LI+ QWV+SA HC +      I +R+G H  +E      NEQ     KII +  Y++   L++D+ L+KL S A +N   +   LP+  P TG+ C I+GWG    +G   P +LQ +  P++ Q  C+  YP  I  +M C GF EGGKDSCQGD+GGP+VC G      L GV SWG GCAQ  KPGVY +V   +KWIK+ I  N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>pdb|2RA3|A</Hit_id>
+  <Hit_def>Chain A, Trypsin-1 [Homo sapiens] &gt;pdb|2RA3|B Chain B, Trypsin-1 [Homo sapiens]</Hit_def>
+  <Hit_accession>2RA3_A</Hit_accession>
+  <Hit_len>224</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>189.119</Hsp_bit-score>
+      <Hsp_score>479</Hsp_score>
+      <Hsp_evalue>5.73518e-54</Hsp_evalue>
+      <Hsp_query-from>1207</Hsp_query-from>
+      <Hsp_query-to>1443</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>223</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>103</Hsp_identity>
+      <Hsp_positive>136</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>IVGGQEANPGDWPWQALLQTPRGSQFCGGTLIHPQWVLSAAHCVERSKPQDIVIRMGAHYRVEKSSTSKNEQKFKVTKIITYESYNKPLQLSHDVALLKLESSATLNDFTNLACLPSTNPTTGSFCAITGWGTLKQNGGQ-PAKLQVVRVPIIQQETCQRYYPKAIHGSMVCAGFSEGGKDSCQGDSGGPMVCKGTDGRYSLHGVTSWGSGCAQPRKPGVYARVSFLLKWIKDNINNN</Hsp_qseq>
+      <Hsp_hseq>IVGGYNCEENSVPYQVSLNS--GYHFCGGSLINEQWVVSAGHCYKSR----IQVRLGEH-NIE--VLEGNEQFINAAKIIRHPQYDRK-TLNNDIMLIKLSSRAVINAHVSTISLPTAPPATGTKCLISGWGNTASSGADYPDELQCLDAPVLSQAKCEASYPGKITSNMFCVGFLEGGKDSCQGDAGGPVVCNG-----QLQGVVSWGDGCAQKNKPGVYTKVYNYVKWIKNTIAAN</Hsp_hseq>
+      <Hsp_midline>IVGG        P+Q  L +  G  FCGG+LI+ QWV+SA HC +      I +R+G H  +E      NEQ     KII +  Y++   L++D+ L+KL S A +N   +   LP+  P TG+ C I+GWG    +G   P +LQ +  P++ Q  C+  YP  I  +M C GF EGGKDSCQGD+GGP+VC G      L GV SWG GCAQ  KPGVY +V   +KWIK+ I  N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>pdb|1UTQ|A</Hit_id>
+  <Hit_def>Chain A, TRYPSINOGEN [Bos taurus]</Hit_def>
+  <Hit_accession>1UTQ_A</Hit_accession>
+  <Hit_len>243</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>189.119</Hsp_bit-score>
+      <Hsp_score>479</Hsp_score>
+      <Hsp_evalue>1.23074e-53</Hsp_evalue>
+      <Hsp_query-from>1206</Hsp_query-from>
+      <Hsp_query-to>1443</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>243</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>101</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>RIVGGQEANPGDWPWQALLQTPRGSQFCGGTLIHPQWVLSAAHCVERSKPQDIVIRMGAHYRVEKSSTSKNEQKFKVTKIITYESYNKPLQLSHDVALLKLESSATLNDFTNLACLPSTNPTTGSFCAITGWGTLKQNGGQ-PAKLQVVRVPIIQQETCQRYYPKAIHGSMVCAGFSEGGKDSCQGDSGGPMVCKGTDGRYSLHGVTSWGSGCAQPRKPGVYARVSFLLKWIKDNINNN</Hsp_qseq>
+      <Hsp_hseq>KXVGGYTCGANTVPYQVSLNS--GYHFCGGSLINSQWVXSAAHCYKSG----IQVRLGED---NINVVEGNEQFISASKSIVHPSYNSN-TLNNDIMLIKLKSAASLNSRVASISLPTSCASAGTQCLISGWGNTKSSGTSYPDVLKCLKAPILSDSSCKSAYPGQITSNMFCAGYLEGGKDSCQGDSGGPVVCSG-----KLQGIVSWGSGCAQKNKPGVYTKVCNYVSWIKQTIASN</Hsp_hseq>
+      <Hsp_midline>+ VGG        P+Q  L +  G  FCGG+LI+ QWV SAAHC +      I +R+G       +    NEQ    +K I + SYN    L++D+ L+KL+S+A+LN       LP++  + G+ C I+GWG  K +G   P  L+ ++ PI+   +C+  YP  I  +M CAG+ EGGKDSCQGDSGGP+VC G      L G+ SWGSGCAQ  KPGVY +V   + WIK  I +N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>pdb|1ANE|A</Hit_id>
+  <Hit_def>Chain A, Anionic Trypsin Wild Type [Rattus rattus] &gt;pdb|3FP6|E Chain E, Anionic trypsin-2 [Rattus norvegicus] &gt;pdb|3TGI|E Chain E, Trypsin [Rattus norvegicus]</Hit_def>
+  <Hit_accession>1ANE_A</Hit_accession>
+  <Hit_len>223</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>187.963</Hsp_bit-score>
+      <Hsp_score>476</Hsp_score>
+      <Hsp_evalue>1.37763e-53</Hsp_evalue>
+      <Hsp_query-from>1207</Hsp_query-from>
+      <Hsp_query-to>1443</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>223</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>101</Hsp_identity>
+      <Hsp_positive>133</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>IVGGQEANPGDWPWQALLQTPRGSQFCGGTLIHPQWVLSAAHCVERSKPQDIVIRMGAHYRVEKSSTSKNEQKFKVTKIITYESYNKPLQLSHDVALLKLESSATLNDFTNLACLPSTNPTTGSFCAITGWG-TLKQNGGQPAKLQVVRVPIIQQETCQRYYPKAIHGSMVCAGFSEGGKDSCQGDSGGPMVCKGTDGRYSLHGVTSWGSGCAQPRKPGVYARVSFLLKWIKDNINNN</Hsp_qseq>
+      <Hsp_hseq>IVGGYTCQENSVPYQVSLNS--GYHFCGGSLINDQWVVSAAHCYKSR----IQVRLGEH---NINVLEGNEQFVNAAKIIKHPNFDRK-TLNNDIMLIKLSSPVKLNARVATVALPSSCAPAGTQCLISGWGNTLSSGVNEPDLLQCLDAPLLPQADCEASYPGKITDNMVCVGFLEGGKDSCQGDSGGPVVCNG-----ELQGIVSWGYGCALPDNPGVYTKVCNYVDWIQDTIAAN</Hsp_hseq>
+      <Hsp_midline>IVGG        P+Q  L +  G  FCGG+LI+ QWV+SAAHC +      I +R+G H     +    NEQ     KII + ++++   L++D+ L+KL S   LN       LPS+    G+ C I+GWG TL     +P  LQ +  P++ Q  C+  YP  I  +MVC GF EGGKDSCQGDSGGP+VC G      L G+ SWG GCA P  PGVY +V   + WI+D I  N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>pdb|1BTP|A</Hit_id>
+  <Hit_def>Chain A, Unique Binding Of A Novel Synthetic Inhibitor, N-[3-[4-[4- (Amidinophenoxy)-Carbonyl]phenyl]-2-Methyl-2-Propenoyl]-N- Allylglycine Methanesulfonate To Bovine Trypsin, Revealed By The Crystal Structure Of The Complex [Bos taurus] &gt;pdb|1BTW|A Chain A, Beta-trypsin [Bos taurus] &gt;pdb|1BTX|A Chain A, Beta-trypsin [Bos taurus] &gt;pdb|1BTY|A Chain A, Beta-trypsin [Bos taurus] &gt;pdb|1BTZ|A Chain A, Beta-trypsin [Bos taurus] &gt;pdb|1TGB|A Chain A, Trypsinogen [Bos taurus] &gt;pdb|1TGC|A Chain A, Trypsinogen [Bos taurus] &gt;pdb|1TGN|A Chain A, TRYPSINOGEN [Bos taurus] &gt;pdb|1TGS|Z Chain Z, Trypsinogen [Bos taurus] &gt;pdb|1TGT|A Chain A, On The Disordered Activation Domain In Trypsinogen. Chemical Labelling And Low-Temperature Crystallography [Bos taurus] &gt;pdb|1TNG|A Chain A, TRYPSIN [Bos taurus] &gt;pdb|1TNH|A Chain A, TRYPSIN [Bos taurus] &gt;pdb|1TNI|A Chain A, TRYPSIN [Bos taurus] &gt;pdb|1TNJ|A Chain A, TRYPSIN [Bos taurus] &gt;pdb|1TNK|A Chain A, TRYPSIN [Bos taurus] &gt;pdb|1TNL|A Chain A, TRYPSIN [Bos taurus] &gt;pdb|2TGA|A Chain A, Trypsinogen [Bos taurus] &gt;pdb|2TGD|A Chain A, TRYPSINOGEN [Bos taurus] &gt;pdb|2TGP|Z Chain Z, Trypsinogen [Bos taurus] &gt;pdb|2TGT|A Chain A, On The Disordered Activation Domain In Trypsinogen. Chemical Labelling And Low-Temperature Crystallography [Bos taurus] &gt;pdb|2TPI|Z Chain Z, Trypsinogen [Bos taurus] &gt;pdb|3TPI|Z Chain Z, Trypsinogen [Bos taurus] &gt;pdb|4TPI|Z Chain Z, Trypsinogen [Bos taurus]</Hit_def>
+  <Hit_accession>1BTP_A</Hit_accession>
+  <Hit_len>229</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>188.348</Hsp_bit-score>
+      <Hsp_score>477</Hsp_score>
+      <Hsp_evalue>1.41002e-53</Hsp_evalue>
+      <Hsp_query-from>1206</Hsp_query-from>
+      <Hsp_query-to>1443</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>229</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>140</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>RIVGGQEANPGDWPWQALLQTPRGSQFCGGTLIHPQWVLSAAHCVERSKPQDIVIRMGAHYRVEKSSTSKNEQKFKVTKIITYESYNKPLQLSHDVALLKLESSATLNDFTNLACLPSTNPTTGSFCAITGWGTLKQNG-GQPAKLQVVRVPIIQQETCQRYYPKAIHGSMVCAGFSEGGKDSCQGDSGGPMVCKGTDGRYSLHGVTSWGSGCAQPRKPGVYARVSFLLKWIKDNINNN</Hsp_qseq>
+      <Hsp_hseq>KIVGGYTCGANTVPYQVSLNS--GYHFCGGSLINSQWVVSAAHCYKSG----IQVRLGED---NINVVEGNEQFISASKSIVHPSYNSN-TLNNDIMLIKLKSAASLNSRVASISLPTSCASAGTQCLISGWGNTKSSGTSYPDVLKCLKAPILSDSSCKSAYPGQITSNMFCAGYLEGGKDSCQGDSGGPVVCSGK-----LQGIVSWGSGCAQKNKPGVYTKVCNYVSWIKQTIASN</Hsp_hseq>
+      <Hsp_midline>+IVGG        P+Q  L +  G  FCGG+LI+ QWV+SAAHC +      I +R+G       +    NEQ    +K I + SYN    L++D+ L+KL+S+A+LN       LP++  + G+ C I+GWG  K +G   P  L+ ++ PI+   +C+  YP  I  +M CAG+ EGGKDSCQGDSGGP+VC G      L G+ SWGSGCAQ  KPGVY +V   + WIK  I +N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>pdb|1SLU|B</Hit_id>
+  <Hit_def>Chain B, Anionic Trypsin [Rattus norvegicus] &gt;pdb|1SLV|B Chain B, Anionic Trypsin [Rattus norvegicus] &gt;pdb|1SLX|B Chain B, Anionic Trypsin [Rattus norvegicus]</Hit_def>
+  <Hit_accession>1SLU_B</Hit_accession>
+  <Hit_len>223</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>187.963</Hsp_bit-score>
+      <Hsp_score>476</Hsp_score>
+      <Hsp_evalue>1.75376e-53</Hsp_evalue>
+      <Hsp_query-from>1207</Hsp_query-from>
+      <Hsp_query-to>1443</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>223</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>101</Hsp_identity>
+      <Hsp_positive>132</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>IVGGQEANPGDWPWQALLQTPRGSQFCGGTLIHPQWVLSAAHCVERSKPQDIVIRMGAHYRVEKSSTSKNEQKFKVTKIITYESYNKPLQLSHDVALLKLESSATLNDFTNLACLPSTNPTTGSFCAITGWG-TLKQNGGQPAKLQVVRVPIIQQETCQRYYPKAIHGSMVCAGFSEGGKDSCQGDSGGPMVCKGTDGRYSLHGVTSWGSGCAQPRKPGVYARVSFLLKWIKDNINNN</Hsp_qseq>
+      <Hsp_hseq>IVGGYTCQENSVPYQVSLNS--GYHFCGGSLINDQWVVSAAHCYKSR----IQVRLGEH---NINVLEGNEQFVNAAKIIKHPNFDRK-TLNNDIMLIKLSSPVKLNARVATVALPSSCAPAGTQCLISGWGHTLSSGVNHPDLLQCLDAPLLPQADCEASYPGKITDNMVCVGFLEGGKDSCQGDSGGPVVCNG-----ELQGIVSWGYGCALPDNPGVYTKVCNYVDWIQDTIAAN</Hsp_hseq>
+      <Hsp_midline>IVGG        P+Q  L +  G  FCGG+LI+ QWV+SAAHC +      I +R+G H     +    NEQ     KII + ++++   L++D+ L+KL S   LN       LPS+    G+ C I+GWG TL      P  LQ +  P++ Q  C+  YP  I  +MVC GF EGGKDSCQGDSGGP+VC G      L G+ SWG GCA P  PGVY +V   + WI+D I  N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>pdb|1G3B|A</Hit_id>
+  <Hit_def>Chain A, BETA-TRYPSIN [Bos taurus] &gt;pdb|1G3C|A Chain A, BETA-TRYPSIN [Bos taurus] &gt;pdb|1G3D|A Chain A, BETA-TRYPSIN [Bos taurus] &gt;pdb|1G3E|A Chain A, BETA-TRYPSIN [Bos taurus]</Hit_def>
+  <Hit_accession>1G3B_A</Hit_accession>
+  <Hit_len>228</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>187.963</Hsp_bit-score>
+      <Hsp_score>476</Hsp_score>
+      <Hsp_evalue>1.75669e-53</Hsp_evalue>
+      <Hsp_query-from>1206</Hsp_query-from>
+      <Hsp_query-to>1443</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>140</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>RIVGGQEANPGDWPWQALLQTPRGSQFCGGTLIHPQWVLSAAHCVERSKPQDIVIRMGAHYRVEKSSTSKNEQKFKVTKIITYESYNKPLQLSHDVALLKLESSATLNDFTNLACLPSTNPTTGSFCAITGWGTLKQNG-GQPAKLQVVRVPIIQQETCQRYYPKAIHGSMVCAGFSEGGKDSCQGDSGGPMVCKGTDGRYSLHGVTSWGSGCAQPRKPGVYARVSFLLKWIKDNINNN</Hsp_qseq>
+      <Hsp_hseq>KIVGGYTCGANTVPYQVSLNS--GYHFCGGSLINSQWVVSAAHCYKSG----IQVRLGED---NINVVEGNEQFISASKSIVHPSYNSN-TLNNDIMLIKLKSAASLNSRVASISLPTSCASAGTQCLISGWGNTKSSGTSYPDVLKCLKAPILSDSSCKSAYPGQITSNMFCAGYLEGGKDSCQGDSGGPVVCSGK-----LQGIVSWGSGCAQKNKPGVYTKVCNYVSWIKQTIASN</Hsp_hseq>
+      <Hsp_midline>+IVGG        P+Q  L +  G  FCGG+LI+ QWV+SAAHC +      I +R+G       +    NEQ    +K I + SYN    L++D+ L+KL+S+A+LN       LP++  + G+ C I+GWG  K +G   P  L+ ++ PI+   +C+  YP  I  +M CAG+ EGGKDSCQGDSGGP+VC G      L G+ SWGSGCAQ  KPGVY +V   + WIK  I +N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>pdb|1F7Z|A</Hit_id>
+  <Hit_def>Chain A, Rat Trypsinogen K15a Complexed With Bovine Pancreatic Trypsin Inhibitor [Rattus norvegicus]</Hit_def>
+  <Hit_accession>1F7Z_A</Hit_accession>
+  <Hit_len>233</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>188.348</Hsp_bit-score>
+      <Hsp_score>477</Hsp_score>
+      <Hsp_evalue>1.8277e-53</Hsp_evalue>
+      <Hsp_query-from>1207</Hsp_query-from>
+      <Hsp_query-to>1443</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>233</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>101</Hsp_identity>
+      <Hsp_positive>133</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>IVGGQEANPGDWPWQALLQTPRGSQFCGGTLIHPQWVLSAAHCVERSKPQDIVIRMGAHYRVEKSSTSKNEQKFKVTKIITYESYNKPLQLSHDVALLKLESSATLNDFTNLACLPSTNPTTGSFCAITGWG-TLKQNGGQPAKLQVVRVPIIQQETCQRYYPKAIHGSMVCAGFSEGGKDSCQGDSGGPMVCKGTDGRYSLHGVTSWGSGCAQPRKPGVYARVSFLLKWIKDNINNN</Hsp_qseq>
+      <Hsp_hseq>IVGGYTCQENSVPYQVSLNS--GYHFCGGSLINDQWVVSAAHCYKSR----IQVRLGEH---NINVLEGNEQFVNAAKIIKHPNFDRK-TLNNDIMLIKLSSPVKLNARVATVALPSSCAPAGTQCLISGWGNTLSSGVNEPDLLQCLDAPLLPQADCEASYPGKITDNMVCVGFLEGGKDSCQGDSGGPVVCNG-----ELQGIVSWGYGCALPDNPGVYTKVCNYVDWIQDTIAAN</Hsp_hseq>
+      <Hsp_midline>IVGG        P+Q  L +  G  FCGG+LI+ QWV+SAAHC +      I +R+G H     +    NEQ     KII + ++++   L++D+ L+KL S   LN       LPS+    G+ C I+GWG TL     +P  LQ +  P++ Q  C+  YP  I  +MVC GF EGGKDSCQGDSGGP+VC G      L G+ SWG GCA P  PGVY +V   + WI+D I  N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>pdb|1ZZZ|A</Hit_id>
+  <Hit_def>Chain A, Trypsin [Bos taurus]</Hit_def>
+  <Hit_accession>1ZZZ_A</Hit_accession>
+  <Hit_len>237</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>188.348</Hsp_bit-score>
+      <Hsp_score>477</Hsp_score>
+      <Hsp_evalue>2.08869e-53</Hsp_evalue>
+      <Hsp_query-from>1206</Hsp_query-from>
+      <Hsp_query-to>1443</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>237</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>140</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>RIVGGQEANPGDWPWQALLQTPRGSQFCGGTLIHPQWVLSAAHCVERSKPQDIVIRMGAHYRVEKSSTSKNEQKFKVTKIITYESYNKPLQLSHDVALLKLESSATLNDFTNLACLPSTNPTTGSFCAITGWGTLKQNG-GQPAKLQVVRVPIIQQETCQRYYPKAIHGSMVCAGFSEGGKDSCQGDSGGPMVCKGTDGRYSLHGVTSWGSGCAQPRKPGVYARVSFLLKWIKDNINNN</Hsp_qseq>
+      <Hsp_hseq>KIVGGYTCGANTVPYQVSLNS--GYHFCGGSLINSQWVVSAAHCYKSG----IQVRLGED---NINVVEGNEQFISASKSIVHPSYNSN-TLNNDIMLIKLKSAASLNSRVASISLPTSCASAGTQCLISGWGNTKSSGTSYPDVLKCLKAPILSDSSCKSAYPGQITSNMFCAGYLEGGKDSCQGDSGGPVVCSGK-----LQGIVSWGSGCAQKNKPGVYTKVCNYVSWIKQTIASN</Hsp_hseq>
+      <Hsp_midline>+IVGG        P+Q  L +  G  FCGG+LI+ QWV+SAAHC +      I +R+G       +    NEQ    +K I + SYN    L++D+ L+KL+S+A+LN       LP++  + G+ C I+GWG  K +G   P  L+ ++ PI+   +C+  YP  I  +M CAG+ EGGKDSCQGDSGGP+VC G      L G+ SWGSGCAQ  KPGVY +V   + WIK  I +N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>pdb|3TGJ|E</Hit_id>
+  <Hit_def>Chain E, Trypsin [Rattus norvegicus]</Hit_def>
+  <Hit_accession>3TGJ_E</Hit_accession>
+  <Hit_len>233</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>187.963</Hsp_bit-score>
+      <Hsp_score>476</Hsp_score>
+      <Hsp_evalue>2.26001e-53</Hsp_evalue>
+      <Hsp_query-from>1206</Hsp_query-from>
+      <Hsp_query-to>1443</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>233</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>134</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>RIVGGQEANPGDWPWQALLQTPRGSQFCGGTLIHPQWVLSAAHCVERSKPQDIVIRMGAHYRVEKSSTSKNEQKFKVTKIITYESYNKPLQLSHDVALLKLESSATLNDFTNLACLPSTNPTTGSFCAITGWG-TLKQNGGQPAKLQVVRVPIIQQETCQRYYPKAIHGSMVCAGFSEGGKDSCQGDSGGPMVCKGTDGRYSLHGVTSWGSGCAQPRKPGVYARVSFLLKWIKDNINNN</Hsp_qseq>
+      <Hsp_hseq>KIVGGYTCQENSVPYQVSLNS--GYHFCGGSLINDQWVVSAAHCYKSR----IQVRLGEH---NINVLEGNEQFVNAAKIIKHPNFDRK-TLNNDIMLIKLSSPVKLNARVATVALPSSCAPAGTQCLISGWGNTLSSGVNEPDLLQCLDAPLLPQADCEASYPGKITDNMVCVGFLEGGKDSCQGDAGGPVVCNG-----ELQGIVSWGYGCALPDNPGVYTKVCNYVDWIQDTIAAN</Hsp_hseq>
+      <Hsp_midline>+IVGG        P+Q  L +  G  FCGG+LI+ QWV+SAAHC +      I +R+G H     +    NEQ     KII + ++++   L++D+ L+KL S   LN       LPS+    G+ C I+GWG TL     +P  LQ +  P++ Q  C+  YP  I  +MVC GF EGGKDSCQGD+GGP+VC G      L G+ SWG GCA P  PGVY +V   + WI+D I  N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>pdb|1SLW|B</Hit_id>
+  <Hit_def>Chain B, Anionic Trypsin [Rattus norvegicus]</Hit_def>
+  <Hit_accession>1SLW_B</Hit_accession>
+  <Hit_len>223</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>187.578</Hsp_bit-score>
+      <Hsp_score>475</Hsp_score>
+      <Hsp_evalue>2.36574e-53</Hsp_evalue>
+      <Hsp_query-from>1207</Hsp_query-from>
+      <Hsp_query-to>1443</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>223</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>101</Hsp_identity>
+      <Hsp_positive>132</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>IVGGQEANPGDWPWQALLQTPRGSQFCGGTLIHPQWVLSAAHCVERSKPQDIVIRMGAHYRVEKSSTSKNEQKFKVTKIITYESYNKPLQLSHDVALLKLESSATLNDFTNLACLPSTNPTTGSFCAITGWG-TLKQNGGQPAKLQVVRVPIIQQETCQRYYPKAIHGSMVCAGFSEGGKDSCQGDSGGPMVCKGTDGRYSLHGVTSWGSGCAQPRKPGVYARVSFLLKWIKDNINNN</Hsp_qseq>
+      <Hsp_hseq>IVGGYTCQENSVPYQVSLNS--GYHFCGGSLINDQWVVSAAHCYKSR----IQVRLGEH---NINVLEGNEQFVNAAKIIKHPNFDRK-TLNNDIMLIKLSSPVKLNARVATIALPSSCAPAGTQCLISGWGHTLSSGVNHPDLLQCLDAPLLPQADCEASYPGKITDNMVCVGFLEGGKDSCQGDSGGPVVCNG-----ELQGIVSWGYGCALPDNPGVYTKVCNYVDWIQDTIAAN</Hsp_hseq>
+      <Hsp_midline>IVGG        P+Q  L +  G  FCGG+LI+ QWV+SAAHC +      I +R+G H     +    NEQ     KII + ++++   L++D+ L+KL S   LN       LPS+    G+ C I+GWG TL      P  LQ +  P++ Q  C+  YP  I  +MVC GF EGGKDSCQGDSGGP+VC G      L G+ SWG GCA P  PGVY +V   + WI+D I  N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>pdb|1UTK|A</Hit_id>
+  <Hit_def>Chain A, Trypsin I [Salmo salar] &gt;pdb|1UTL|M Chain M, TRYPSIN I [Salmo salar] &gt;pdb|1UTM|A Chain A, TRYPSIN I [Salmo salar]</Hit_def>
+  <Hit_accession>1UTK_A</Hit_accession>
+  <Hit_len>242</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>188.348</Hsp_bit-score>
+      <Hsp_score>477</Hsp_score>
+      <Hsp_evalue>2.36717e-53</Hsp_evalue>
+      <Hsp_query-from>1206</Hsp_query-from>
+      <Hsp_query-to>1440</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>239</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>95</Hsp_identity>
+      <Hsp_positive>130</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>RIVGGQEANPGDWPWQALLQTPRGSQFCGGTLIHPQWVLSAAHCVERSKPQDIVIRMGAHYRVEKSSTSKNEQKFKVTKII---TYESYNKPLQLSHDVALLKLESSATLNDFTNLACLPSTNPTTGSFCAITGWGTLKQNGGQPAKLQVVRVPIIQQETCQRYYPKAIHGSMVCAGFSEGGKDSCQGDSGGPMVCKGTDGRYSLHGVTSWGSGCAQPRKPGVYARVSFLLKWIKDNI</Hsp_qseq>
+      <Hsp_hseq>KIVGGYECKPYSQPHQVSLNS--GYHFCGGSLVNENWVVSAAHCYKSR----VEVRLGEH---NIKVTEGSEQFISSSRVIRHPNYSSYN----IDNDIMLIKLSKPATLNTYVQPVALPTSCAPAGTMCTVSGWGNTMSSTADSNKLQCLNIPILSYSDCNNSYPGMITNAMFCAGYLEGGKDSCQGDSGGPVVCNG-----ELQGVVSWGYGCAEPGNPGVYAKVCIFNDWLTSTM</Hsp_hseq>
+      <Hsp_midline>+IVGG E  P   P Q  L +  G  FCGG+L++  WV+SAAHC +      + +R+G H       T  +EQ    +++I    Y SYN    + +D+ L+KL   ATLN +     LP++    G+ C ++GWG    +     KLQ + +PI+    C   YP  I  +M CAG+ EGGKDSCQGDSGGP+VC G      L GV SWG GCA+P  PGVYA+V     W+   +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>pdb|1K9O|E</Hit_id>
+  <Hit_def>Chain E, Crystal Structure Of Michaelis Serpin-Trypsin Complex [Rattus norvegicus] &gt;pdb|1YKT|A Chain A, TrypsinBPTI COMPLEX MUTANT [Rattus norvegicus] &gt;pdb|1YLC|A Chain A, Trypsin II [Rattus norvegicus] &gt;pdb|1YLD|A Chain A, Trypsin II [Rattus norvegicus] &gt;pdb|3FP7|E Chain E, Anionic trypsin-2 [Rattus norvegicus] &gt;pdb|3FP8|E Chain E, Anionic trypsin-2 [Rattus norvegicus]</Hit_def>
+  <Hit_accession>1K9O_E</Hit_accession>
+  <Hit_len>223</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>187.193</Hsp_bit-score>
+      <Hsp_score>474</Hsp_score>
+      <Hsp_evalue>2.78776e-53</Hsp_evalue>
+      <Hsp_query-from>1207</Hsp_query-from>
+      <Hsp_query-to>1443</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>223</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>133</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>IVGGQEANPGDWPWQALLQTPRGSQFCGGTLIHPQWVLSAAHCVERSKPQDIVIRMGAHYRVEKSSTSKNEQKFKVTKIITYESYNKPLQLSHDVALLKLESSATLNDFTNLACLPSTNPTTGSFCAITGWG-TLKQNGGQPAKLQVVRVPIIQQETCQRYYPKAIHGSMVCAGFSEGGKDSCQGDSGGPMVCKGTDGRYSLHGVTSWGSGCAQPRKPGVYARVSFLLKWIKDNINNN</Hsp_qseq>
+      <Hsp_hseq>IVGGYTCQENSVPYQVSLNS--GYHFCGGSLINDQWVVSAAHCYKSR----IQVRLGEH---NINVLEGNEQFVNAAKIIKHPNFDRK-TLNNDIMLIKLSSPVKLNARVATVALPSSCAPAGTQCLISGWGNTLSSGVNEPDLLQCLDAPLLPQADCEASYPGKITDNMVCVGFLEGGKDSCQGDAGGPVVCNG-----ELQGIVSWGYGCALPDNPGVYTKVCNYVDWIQDTIAAN</Hsp_hseq>
+      <Hsp_midline>IVGG        P+Q  L +  G  FCGG+LI+ QWV+SAAHC +      I +R+G H     +    NEQ     KII + ++++   L++D+ L+KL S   LN       LPS+    G+ C I+GWG TL     +P  LQ +  P++ Q  C+  YP  I  +MVC GF EGGKDSCQGD+GGP+VC G      L G+ SWG GCA P  PGVY +V   + WI+D I  N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>pdb|4WWY|A</Hit_id>
+  <Hit_def>Chain A, Trypsin-1 [Homo sapiens] &gt;pdb|4WWY|B Chain B, Trypsin-1 [Homo sapiens]</Hit_def>
+  <Hit_accession>4WWY_A</Hit_accession>
+  <Hit_len>224</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>187.193</Hsp_bit-score>
+      <Hsp_score>474</Hsp_score>
+      <Hsp_evalue>2.90418e-53</Hsp_evalue>
+      <Hsp_query-from>1207</Hsp_query-from>
+      <Hsp_query-to>1443</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>223</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>103</Hsp_identity>
+      <Hsp_positive>135</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>IVGGQEANPGDWPWQALLQTPRGSQFCGGTLIHPQWVLSAAHCVERSKPQDIVIRMGAHYRVEKSSTSKNEQKFKVTKIITYESYNKPLQLSHDVALLKLESSATLNDFTNLACLPSTNPTTGSFCAITGWGTLKQNGGQ-PAKLQVVRVPIIQQETCQRYYPKAIHGSMVCAGFSEGGKDSCQGDSGGPMVCKGTDGRYSLHGVTSWGSGCAQPRKPGVYARVSFLLKWIKDNINNN</Hsp_qseq>
+      <Hsp_hseq>IVGGYNCEENSVPYQVSLNS--GYHFCGGSLINEQWVVSAGHCYKSR----IQVRLGEH-NIE--VLEGNEQFINAAKIIRHPQYDRK-TLNNDIMLIKLSSRAVINAHVSTISLPTAPPATGTKCLISGWGNTASSGADYPDELQCLDAPVLSQAKCEASYPGKITSNMFCVGFLEGGKDSCQRDSGGPVVCNG-----QLQGVVSWGDGCAQKNKPGVYTKVYNYVKWIKNTIAAN</Hsp_hseq>
+      <Hsp_midline>IVGG        P+Q  L +  G  FCGG+LI+ QWV+SA HC +      I +R+G H  +E      NEQ     KII +  Y++   L++D+ L+KL S A +N   +   LP+  P TG+ C I+GWG    +G   P +LQ +  P++ Q  C+  YP  I  +M C GF EGGKDSCQ DSGGP+VC G      L GV SWG GCAQ  KPGVY +V   +KWIK+ I  N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>pdb|1AND|A</Hit_id>
+  <Hit_def>Chain A, Anionic Trypsin Mutant With Arg 96 Replaced By His [Rattus rattus]</Hit_def>
+  <Hit_accession>1AND_A</Hit_accession>
+  <Hit_len>223</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>187.193</Hsp_bit-score>
+      <Hsp_score>474</Hsp_score>
+      <Hsp_evalue>3.07037e-53</Hsp_evalue>
+      <Hsp_query-from>1207</Hsp_query-from>
+      <Hsp_query-to>1443</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>223</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>101</Hsp_identity>
+      <Hsp_positive>132</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>IVGGQEANPGDWPWQALLQTPRGSQFCGGTLIHPQWVLSAAHCVERSKPQDIVIRMGAHYRVEKSSTSKNEQKFKVTKIITYESYNKPLQLSHDVALLKLESSATLNDFTNLACLPSTNPTTGSFCAITGWG-TLKQNGGQPAKLQVVRVPIIQQETCQRYYPKAIHGSMVCAGFSEGGKDSCQGDSGGPMVCKGTDGRYSLHGVTSWGSGCAQPRKPGVYARVSFLLKWIKDNINNN</Hsp_qseq>
+      <Hsp_hseq>IVGGYTCQENSVPYQVSLNS--GYHFCGGSLINDQWVVSAAHCYKSR----IQVRLGEH---NINVLEGNEQFVNAAKIIKHPNFDHK-TLNNDIMLIKLSSPVKLNARVATVALPSSCAPAGTQCLISGWGNTLSSGVNEPDLLQCLDAPLLPQADCEASYPGKITDNMVCVGFLEGGKDSCQGDSGGPVVCNG-----ELQGIVSWGYGCALPDNPGVYTKVCNYVDWIQDTIAAN</Hsp_hseq>
+      <Hsp_midline>IVGG        P+Q  L +  G  FCGG+LI+ QWV+SAAHC +      I +R+G H     +    NEQ     KII + +++    L++D+ L+KL S   LN       LPS+    G+ C I+GWG TL     +P  LQ +  P++ Q  C+  YP  I  +MVC GF EGGKDSCQGDSGGP+VC G      L G+ SWG GCA P  PGVY +V   + WI+D I  N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>pdb|1ACB|E</Hit_id>
+  <Hit_def>Chain E, ALPHA-CHYMOTRYPSIN [Bos taurus] &gt;pdb|1CGI|E Chain E, Three-Dimensional Structure Of The Complexes Between Bovine ChymotrypsinogenA And Two Recombinant Variants Of Human Pancreatic Secretory Trypsin Inhibitor (Kazal-Type) [Bos taurus] &gt;pdb|1CGJ|E Chain E, Three-Dimensional Structure Of The Complexes Between Bovine ChymotrypsinogenA And Two Recombinant Variants Of Human Pancreatic Secretory Trypsin Inhibitor (Kazal-Type) [Bos taurus] &gt;pdb|1CHG|A Chain A, Chymotrypsinogen,2.5 Angstroms Crystal Structure, Comparison With Alpha-Chymotrypsin,And Implications For Zymogen Activation [Bos taurus] &gt;pdb|1EX3|A Chain A, Chymotrypsinogen A [Bos taurus] &gt;pdb|1GCD|A Chain A, Refined Crystal Structure Of &quot;aged&quot; And &quot;non-Aged&quot; Organophosphoryl Conjugates Of Gamma-Chymotrypsin [Bos taurus] &gt;pdb|1GL0|E Chain E, Structure Of The Complex Between Bovine Alpha-Chymotrypsin And Pmp-D2v, An Inhibitor From The Insect Locusta Migratoria [Bos taurus] &gt;pdb|1GL1|A Chain A, Structure Of The Complex Between Bovine Alpha-Chymotrypsin And Pmp-C, An Inhibitor From The Insect Locusta Migratoria [Bos taurus] &gt;pdb|1GL1|B Chain B, Structure Of The Complex Between Bovine Alpha-Chymotrypsin And Pmp-C, An Inhibitor From The Insect Locusta Migratoria [Bos taurus] &gt;pdb|1GL1|C Chain C, Structure Of The Complex Between Bovine Alpha-Chymotrypsin And Pmp-C, An Inhibitor From The Insect Locusta Migratoria [Bos taurus] &gt;pdb|1K2I|1 Chain 1, Chymotrypsinogen A [Bos taurus] &gt;pdb|1OXG|A Chain A, Chymotrypsinogen A [Bos taurus] &gt;pdb|1P2M|A Chain A, Chymotrypsinogen A [Bos taurus] &gt;pdb|1P2M|C Chain C, Chymotrypsinogen A [Bos taurus] &gt;pdb|1P2N|A Chain A, Chymotrypsinogen A [Bos taurus] &gt;pdb|1P2N|C Chain C, Chymotrypsinogen A [Bos taurus] &gt;pdb|1P2O|A Chain A, Chymotrypsinogen A [Bos taurus] &gt;pdb|1P2O|C Chain C, Chymotrypsinogen A [Bos taurus] &gt;pdb|1P2Q|A Chain A, Chymotrypsinogen A [Bos taurus] &gt;pdb|1P2Q|C Chain C, Chymotrypsinogen A [Bos taurus] &gt;pdb|1T7C|A Chain A, Chymotrypsin A [Bos taurus] &gt;pdb|1T7C|C Chain C, Chymotrypsin A [Bos taurus] &gt;pdb|1T8L|A Chain A, Chymotrypsin A [Bos taurus] &gt;pdb|1T8L|C Chain C, Chymotrypsin A [Bos taurus] &gt;pdb|1T8M|A Chain A, Chymotrypsin A [Bos taurus] &gt;pdb|1T8M|C Chain C, Chymotrypsin A [Bos taurus] &gt;pdb|1T8N|A Chain A, Chymotrypsin A [Bos taurus] &gt;pdb|1T8N|C Chain C, Chymotrypsin A [Bos taurus] &gt;pdb|1T8O|A Chain A, Chymotrypsin A [Bos taurus] &gt;pdb|1T8O|C Chain C, Chymotrypsin A [Bos taurus] &gt;pdb|2CGA|A Chain A, Bovine Chymotrypsinogen A. X-Ray Crystal Structure Analysis And Refinement Of A New Crystal Form At 1.8 Angstroms Resolution [Bos taurus] &gt;pdb|2CGA|B Chain B, Bovine Chymotrypsinogen A. X-Ray Crystal Structure Analysis And Refinement Of A New Crystal Form At 1.8 Angstroms Resolution [Bos taurus] &gt;pdb|2Y6T|A Chain A, Chymotrypsinogen A [Bos taurus] &gt;pdb|2Y6T|B Chain B, Chymotrypsinogen A [Bos taurus] &gt;pdb|2Y6T|C Chain C, Chymotrypsinogen A [Bos taurus] &gt;pdb|2Y6T|D Chain D, Chymotrypsinogen A [Bos taurus] &gt;pdb|3T62|A Chain A, Chymotrypsinogen A [Bos taurus] &gt;pdb|3T62|B Chain B, Chymotrypsinogen A [Bos taurus] &gt;pdb|3T62|C Chain C, Chymotrypsinogen A [Bos taurus] &gt;pdb|4Q2K|A Chain A, Chymotrypsinogen A [Bos taurus] &gt;pdb|4Q2K|B Chain B, Chymotrypsinogen A [Bos taurus] &gt;pdb|4Q2K|C Chain C, Chymotrypsinogen A [Bos taurus] &gt;pdb|4Q2K|D Chain D, Chymotrypsinogen A [Bos taurus] &gt;pdb|5J4Q|A Chain A, Chymotrypsinogen A [Bos taurus] &gt;pdb|5J4S|A Chain A, Chymotrypsinogen A [Bos taurus]</Hit_def>
+  <Hit_accession>1ACB_E</Hit_accession>
+  <Hit_len>245</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>187.963</Hsp_bit-score>
+      <Hsp_score>476</Hsp_score>
+      <Hsp_evalue>3.20895e-53</Hsp_evalue>
+      <Hsp_query-from>1205</Hsp_query-from>
+      <Hsp_query-to>1443</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>245</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>242</Hsp_align-len>
+      <Hsp_qseq>ARIVGGQEANPGDWPWQALLQTPRGSQFCGGTLIHPQWVLSAAHCVERSKPQDIVIRMGAHYRVEKSSTSKNEQKFKVTKIITYESYNKPLQLSHDVALLKLESSATLNDFTNLACLPSTNP--TTGSFCAITGWG-TLKQNGGQPAKLQVVRVPIIQQETCQRYYPKAIHGSMVCAGFSEGGKDSCQGDSGGPMVCKGTDGRYSLHGVTSWGSGCAQPRKPGVYARVSFLLKWIKDNINNN</Hsp_qseq>
+      <Hsp_hseq>SRIVNGEEAVPGSWPWQVSLQDKTGFHFCGGSLINENWVVTAAHCGVTT--SDVVVAG----EFDQGSSSEKIQKLKIAKVFKNSKYNS-LTINNDITLLKLSTAASFSQTVSAVCLPSASDDFAAGTTCVTTGWGLTRYTNANTPDRLQQASLPLLSNTNCKKYWGTKIKDAMICAGAS--GVSSCMGDSGGPLVCK-KNGAWTLVGIVSWGSSTCSTSTPGVYARVTALVNWVQQTLAAN</Hsp_hseq>
+      <Hsp_midline>+RIV G+EA PG WPWQ  LQ   G  FCGG+LI+  WV++AAHC   +   D+V+        ++ S+S+  QK K+ K+     YN  L +++D+ LLKL ++A+ +   +  CLPS +     G+ C  TGWG T   N   P +LQ   +P++    C++Y+   I  +M+CAG S  G  SC GDSGGP+VCK  +G ++L G+ SWGS       PGVYARV+ L+ W++  +  N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>pdb|3VEQ|B</Hit_id>
+  <Hit_def>Chain B, Cationic Trypsin [Bos taurus]</Hit_def>
+  <Hit_accession>3VEQ_B</Hit_accession>
+  <Hit_len>223</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>187.193</Hsp_bit-score>
+      <Hsp_score>474</Hsp_score>
+      <Hsp_evalue>3.34912e-53</Hsp_evalue>
+      <Hsp_query-from>1207</Hsp_query-from>
+      <Hsp_query-to>1443</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>223</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>139</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>IVGGQEANPGDWPWQALLQTPRGSQFCGGTLIHPQWVLSAAHCVERSKPQDIVIRMGAHYRVEKSSTSKNEQKFKVTKIITYESYNKPLQLSHDVALLKLESSATLNDFTNLACLPSTNPTTGSFCAITGWGTLKQNG-GQPAKLQVVRVPIIQQETCQRYYPKAIHGSMVCAGFSEGGKDSCQGDSGGPMVCKGTDGRYSLHGVTSWGSGCAQPRKPGVYARVSFLLKWIKDNINNN</Hsp_qseq>
+      <Hsp_hseq>IVGGYTCGANTVPYQVSLNS--GYHFCGGSLINSQWVVSAAHCYKS----GIQVRLGED---NINVVEGNEQFISASKSIVHPSYNSN-TLNNDIMLIKLKSAASLNSRVASVSLPTSCASAGTQCLISGWGNTKSSGTSYPDVLKCLKAPILSDSSCKSAYPGQITSNMFCAGYLEGGKDSCQGDSGGPVVCAG-----KLQGIVSWGSGCAQKNKPGVYTKVCNYVSWIKQTIASN</Hsp_hseq>
+      <Hsp_midline>IVGG        P+Q  L +  G  FCGG+LI+ QWV+SAAHC +      I +R+G       +    NEQ    +K I + SYN    L++D+ L+KL+S+A+LN       LP++  + G+ C I+GWG  K +G   P  L+ ++ PI+   +C+  YP  I  +M CAG+ EGGKDSCQGDSGGP+VC G      L G+ SWGSGCAQ  KPGVY +V   + WIK  I +N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>pdb|1DPO|A</Hit_id>
+  <Hit_def>Chain A, Structure Of Rat Trypsin [Rattus rattus]</Hit_def>
+  <Hit_accession>1DPO_A</Hit_accession>
+  <Hit_len>223</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>186.808</Hsp_bit-score>
+      <Hsp_score>473</Hsp_score>
+      <Hsp_evalue>4.18194e-53</Hsp_evalue>
+      <Hsp_query-from>1207</Hsp_query-from>
+      <Hsp_query-to>1443</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>223</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>132</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>IVGGQEANPGDWPWQALLQTPRGSQFCGGTLIHPQWVLSAAHCVERSKPQDIVIRMGAHYRVEKSSTSKNEQKFKVTKIITYESYNKPLQLSHDVALLKLESSATLNDFTNLACLPSTNPTTGSFCAITGWG-TLKQNGGQPAKLQVVRVPIIQQETCQRYYPKAIHGSMVCAGFSEGGKDSCQGDSGGPMVCKGTDGRYSLHGVTSWGSGCAQPRKPGVYARVSFLLKWIKDNINNN</Hsp_qseq>
+      <Hsp_hseq>IVGGYTCQENSVPYQVSLNS--GYHFCGGSLINDQWVVSAAHCYKSR----IQVRLGEH---NINVLEGNEQFVNAAKIIKHPNFDRK-TLNNDIMLIKLSSPVKLNARVATVALPSSCAPAGTQCLISGWGNTLSSGVNEPDLLQCLDAPLLPQADCEASYPGKITDNMVCVGFLEGGKDSCQGDCGGPVVCNG-----ELQGIVSWGYGCALPDNPGVYTKVCNYVDWIQDTIAAN</Hsp_hseq>
+      <Hsp_midline>IVGG        P+Q  L +  G  FCGG+LI+ QWV+SAAHC +      I +R+G H     +    NEQ     KII + ++++   L++D+ L+KL S   LN       LPS+    G+ C I+GWG TL     +P  LQ +  P++ Q  C+  YP  I  +MVC GF EGGKDSCQGD GGP+VC G      L G+ SWG GCA P  PGVY +V   + WI+D I  N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>pdb|1AQ7|A</Hit_id>
+  <Hit_def>Chain A, Trypsin [Bos taurus] &gt;pdb|1AUJ|A Chain A, Bovine Trypsin Complexed To Meta-Cyano-Benzylic Inhibitor [Bos taurus] &gt;pdb|1AZ8|A Chain A, Bovine Trypsin Complexed To Bis-Phenylamidine Inhibitor [Bos taurus] &gt;pdb|1BJU|A Chain A, Beta-Trypsin Complexed With Acpu [Bos taurus] &gt;pdb|1BJV|A Chain A, Beta-Trypsin Complexed With Appu [Bos taurus] &gt;pdb|1C1N|A Chain A, Trypsin [Bos taurus] &gt;pdb|1C1O|A Chain A, Trypsin [Bos taurus] &gt;pdb|1C1P|A Chain A, Trypsin [Bos taurus] &gt;pdb|1C1Q|A Chain A, Trypsin [Bos taurus] &gt;pdb|1C1R|A Chain A, Trypsin [Bos taurus] &gt;pdb|1C1S|A Chain A, Trypsin [Bos taurus] &gt;pdb|1C1T|A Chain A, Trypsin [Bos taurus] &gt;pdb|1C2D|A Chain A, Trypsin [Bos taurus] &gt;pdb|1C2E|A Chain A, Trypsin [Bos taurus] &gt;pdb|1C2F|A Chain A, Trypsin [Bos taurus] &gt;pdb|1C2G|A Chain A, Trypsin [Bos taurus] &gt;pdb|1C2H|A Chain A, Trypsin [Bos taurus] &gt;pdb|1C2I|A Chain A, Trypsin [Bos taurus] &gt;pdb|1C2J|A Chain A, Trypsin [Bos taurus] &gt;pdb|1C2K|A Chain A, Trypsin [Bos taurus] &gt;pdb|1C2L|A Chain A, Trypsin [Bos taurus] &gt;pdb|1C2M|A Chain A, Trypsin [Bos taurus] &gt;pdb|1C5P|A Chain A, Protein (trypsin) [Bos taurus] &gt;pdb|1C5Q|A Chain A, Protein (trypsin) [Bos taurus] &gt;pdb|1C5R|A Chain A, Protein (trypsin) [Bos taurus] &gt;pdb|1C5S|A Chain A, Protein (trypsin) [Bos taurus] &gt;pdb|1C5T|A Chain A, Protein (trypsin) [Bos taurus] &gt;pdb|1C5U|A Chain A, Protein (trypsin) [Bos taurus] &gt;pdb|1C5V|A Chain A, Protein (trypsin) [Bos taurus] &gt;pdb|1C9T|A Chain A, Trypsin [Bos taurus] &gt;pdb|1C9T|B Chain B, Trypsin [Bos taurus] &gt;pdb|1C9T|C Chain C, Trypsin [Bos taurus] &gt;pdb|1C9T|D Chain D, Trypsin [Bos taurus] &gt;pdb|1C9T|E Chain E, Trypsin [Bos taurus] &gt;pdb|1C9T|F Chain F, Trypsin [Bos taurus] &gt;pdb|1CE5|A Chain A, PROTEIN (TRYPSIN) [Bos taurus] &gt;pdb|1D6R|A Chain A, Trypsinogen [Bos taurus] &gt;pdb|1EB2|A Chain A, Trypsin Inhibitor Complex (Bpo) [Bos taurus] &gt;pdb|1EJM|A Chain A, BETA-TRYPSIN [Bos taurus] &gt;pdb|1EJM|C Chain C, BETA-TRYPSIN [Bos taurus] &gt;pdb|1EJM|E Chain E, BETA-TRYPSIN [Bos taurus] &gt;pdb|1F2S|E Chain E, Trypsin [Bos taurus] &gt;pdb|1G36|A Chain A, Trypsin Inhibitor Complex [Bos taurus] &gt;pdb|1G9I|E Chain E, TRYPSINOGEN, CATIONIC [Bos taurus] &gt;pdb|1GBT|A Chain A, Structure Of An Acyl-Enzyme Intermediate During Catalysis: (Guanidinobenzoyl) Trypsin [Bos taurus] &gt;pdb|1GHZ|A Chain A, Beta-trypsin [Bos taurus] &gt;pdb|1GI0|A Chain A, Beta-trypsin [Bos taurus] &gt;pdb|1GI1|A Chain A, Beta-trypsin [Bos taurus] &gt;pdb|1GI2|A Chain A, Beta-trypsin [Bos taurus] &gt;pdb|1GI3|A Chain A, Beta-trypsin [Bos taurus] &gt;pdb|1GI4|A Chain A, Beta-trypsin [Bos taurus] &gt;pdb|1GI5|A Chain A, Beta-trypsin [Bos taurus] &gt;pdb|1GI6|A Chain A, Beta-trypsin [Bos taurus] &gt;pdb|1GJ6|A Chain A, Beta-trypsin [Bos taurus] &gt;pdb|1J8A|A Chain A, Trypsinogen, Cationic [Bos taurus] &gt;pdb|1JIR|A Chain A, Beta-trypsin [Bos taurus] &gt;pdb|1JRS|A Chain A, Trypsin [Bos taurus] &gt;pdb|1JRT|A Chain A, Trypsin [Bos taurus] &gt;pdb|1K1I|A Chain A, Trypsin [Bos taurus] &gt;pdb|1K1J|A Chain A, Trypsin [Bos taurus] &gt;pdb|1K1L|A Chain A, Trypsin [Bos taurus] &gt;pdb|1K1M|A Chain A, Trypsin [Bos taurus] &gt;pdb|1K1N|A Chain A, Trypsin [Bos taurus] &gt;pdb|1K1O|A Chain A, Trypsin [Bos taurus] &gt;pdb|1K1P|A Chain A, Trypsin [Bos taurus] &gt;pdb|1MAX|A Chain A, Beta-trypsin [Bos taurus] &gt;pdb|1MAY|A Chain A, Beta-trypsin [Bos taurus] &gt;pdb|1MTS|A Chain A, Trypsin [Bos taurus] &gt;pdb|1MTU|A Chain A, Trypsin [Bos taurus] &gt;pdb|1MTV|A Chain A, Trypsin [Bos taurus] &gt;pdb|1MTW|A Chain A, Trypsin [Bos taurus] &gt;pdb|1N6X|A Chain A, Trypsinogen, Cationic [Bos taurus] &gt;pdb|1N6Y|A Chain A, Trypsinogen, Cationic [Bos taurus] &gt;pdb|1NC6|A Chain A, Trypsinogen [Bos taurus] &gt;pdb|1O2H|A Chain A, BETA-TRYPSIN [Bos taurus] &gt;pdb|1O2I|A Chain A, BETA-TRYPSIN [Bos taurus] &gt;pdb|1O2J|A Chain A, BETA-TRYPSIN [Bos taurus] &gt;pdb|1O2K|A Chain A, BETA-TRYPSIN [Bos taurus] &gt;pdb|1O2L|A Chain A, BETA-TRYPSIN [Bos taurus] &gt;pdb|1O2M|A Chain A, BETA-TRYPSIN [Bos taurus] &gt;pdb|1O2N|A Chain A, BETA-TRYPSIN [Bos taurus] &gt;pdb|1O2O|A Chain A, BETA-TRYPSIN [Bos taurus] &gt;pdb|1O2P|A Chain A, BETA-TRYPSIN [Bos taurus] &gt;pdb|1O2Q|A Chain A, BETA-TRYPSIN [Bos taurus] &gt;pdb|1O2R|A Chain A, BETA-TRYPSIN [Bos taurus] &gt;pdb|1O2S|A Chain A, BETA-TRYPSIN [Bos taurus] &gt;pdb|1O2T|A Chain A, BETA-TRYPSIN [Bos taurus] &gt;pdb|1O2U|A Chain A, BETA-TRYPSIN [Bos taurus] &gt;pdb|1O2V|A Chain A, BETA-TRYPSIN [Bos taurus] &gt;pdb|1O2W|A Chain A, BETA-TRYPSIN [Bos taurus] &gt;pdb|1O2X|A Chain A, BETA-TRYPSIN [Bos taurus] &gt;pdb|1O2Y|A Chain A, BETA-TRYPSIN [Bos taurus] &gt;pdb|1O2Z|A Chain A, BETA-TRYPSIN [Bos taurus] &gt;pdb|1O30|A Chain A, BETA-TRYPSIN [Bos taurus] &gt;pdb|1O31|A Chain A, BETA-TRYPSIN [Bos taurus] &gt;pdb|1O32|A Chain A, BETA-TRYPSIN [Bos taurus] &gt;pdb|1O33|A Chain A, BETA-TRYPSIN [Bos taurus] &gt;pdb|1O34|A Chain A, BETA-TRYPSIN [Bos taurus] &gt;pdb|1O35|A Chain A, BETA-TRYPSIN [Bos taurus] &gt;pdb|1O36|A Chain A, BETA-TRYPSIN [Bos taurus] &gt;pdb|1O37|A Chain A, BETA-TRYPSIN [Bos taurus] &gt;pdb|1O38|A Chain A, BETA-TRYPSIN [Bos taurus] &gt;pdb|1O39|A Chain A, BETA-TRYPSIN [Bos taurus] &gt;pdb|1O3A|A Chain A, BETA-TRYPSIN [Bos taurus] &gt;pdb|1O3B|A Chain A, BETA-TRYPSIN [Bos taurus] &gt;pdb|1O3C|A Chain A, BETA-TRYPSIN [Bos taurus] &gt;pdb|1O3D|A Chain A, BETA-TRYPSIN [Bos taurus] &gt;pdb|1O3E|A Chain A, BETA-TRYPSIN [Bos taurus] &gt;pdb|1O3F|A Chain A, BETA-TRYPSIN [Bos taurus] &gt;pdb|1O3G|A Chain A, BETA-TRYPSIN [Bos taurus] &gt;pdb|1O3H|A Chain A, BETA-TRYPSIN [Bos taurus] &gt;pdb|1O3I|A Chain A, BETA-TRYPSIN [Bos taurus] &gt;pdb|1O3J|A Chain A, BETA-TRYPSIN [Bos taurus] &gt;pdb|1O3K|A Chain A, BETA-TRYPSIN [Bos taurus] &gt;pdb|1O3L|A Chain A, BETA-TRYPSIN [Bos taurus] &gt;pdb|1O3M|A Chain A, BETA-TRYPSIN [Bos taurus] &gt;pdb|1O3N|A Chain A, BETA-TRYPSIN [Bos taurus] &gt;pdb|1O3O|A Chain A, BETA-TRYPSIN [Bos taurus] &gt;pdb|1OX1|A Chain A, Trypsinogen, cationic [Bos taurus] &gt;pdb|1OYQ|A Chain A, Trypsin, Cationic [Bos taurus] &gt;pdb|1P2I|A Chain A, Trypsinogen, Cationic [Bos taurus] &gt;pdb|1P2J|A Chain A, Trypsinogen, Cationic [Bos taurus] &gt;pdb|1P2K|A Chain A, Trypsinogen, Cationic [Bos taurus] &gt;pdb|1PPC|E Chain E, Trypsin [Bos taurus] &gt;pdb|1PPE|E Chain E, The Refined 2.0 Angstroms X-Ray Crystal Structure Of The Complex Formed Between Bovine Beta-Trypsin And Cmti-I, A Trypsin Inhibitor From Squash Seeds (Cucurbita Maxima): Topological Similarity Of The Squash Seed Inhibitors With The Carboxypeptidase A Inhibitor From Potatoes [Bos taurus] &gt;pdb|1PPH|E Chain E, Trypsin [Sus scrofa] &gt;pdb|1QA0|A Chain A, TRYPSIN [Bos taurus] &gt;pdb|1QB1|A Chain A, PROTEIN (TRYPSIN) [Bos taurus] &gt;pdb|1QB6|A Chain A, Protein (trypsin) [Bos taurus] &gt;pdb|1QB9|A Chain A, Protein (trypsin) [Bos taurus] &gt;pdb|1QBN|A Chain A, Protein (trypsin) [Bos taurus] &gt;pdb|1QBO|A Chain A, Protein (trypsin) [Bos taurus] &gt;pdb|1QCP|A Chain A, Protein (beta-trypsin Protein) [Bos taurus] &gt;pdb|1QL7|A Chain A, Trypsin [Bos taurus] &gt;pdb|1QL8|A Chain A, Trypsin [Bos taurus] &gt;pdb|1RXP|A Chain A, Trypsin [Bos taurus] &gt;pdb|1S0Q|A Chain A, Trypsinogen [Bos taurus] &gt;pdb|1S0R|A Chain A, Trypsinogen [Bos taurus] &gt;pdb|1SBW|A Chain A, Protein (beta-trypsin) [Bos taurus] &gt;pdb|1SFI|A Chain A, Trypsin [Bos taurus] &gt;pdb|1SMF|E Chain E, TRYPSIN [Bos taurus] &gt;pdb|1TAB|E Chain E, Structure Of The Trypsin-Binding Domain Of Bowman-Birk Type Protease Inhibitor And Its Interaction With Trypsin [Bos taurus] &gt;pdb|1TIO|A Chain A, Protein (beta-trypsin) [Bos taurus] &gt;pdb|1TLD|A Chain A, Beta-trypsin [Bos taurus] &gt;pdb|1TPA|E Chain E, Anhydro-trypsin [Bos taurus] &gt;pdb|1TPO|A Chain A, Beta-trypsin [Bos taurus] &gt;pdb|1TPP|A Chain A, Beta-trypsin [Bos taurus] &gt;pdb|1TPS|A Chain A, Trypsin [Bos taurus] &gt;pdb|1TX7|A Chain A, Trypsinogen [Bos taurus] &gt;pdb|1TX8|A Chain A, Trypsinogen [Bos taurus] &gt;pdb|1TYN|A Chain A, Beta-trypsin [Bos taurus] &gt;pdb|1XUF|A Chain A, TRYPSIN [Bos taurus] &gt;pdb|1XUG|A Chain A, TRYPSIN [Bos taurus] &gt;pdb|1XUH|A Chain A, TRYPSIN [Bos taurus] &gt;pdb|1XUI|A Chain A, TRYPSIN [Bos taurus] &gt;pdb|1XUJ|A Chain A, TRYPSIN [Bos taurus] &gt;pdb|1XUK|A Chain A, TRYPSIN [Bos taurus] &gt;pdb|1Y3U|A Chain A, Trypsin, Cationic [Bos taurus] &gt;pdb|1Y3V|A Chain A, Trypsin, cationic [Bos taurus] &gt;pdb|1Y3W|A Chain A, Trypsinogen, cationic [Bos taurus] &gt;pdb|1Y3X|A Chain A, Trypsinogen, cationic [Bos taurus] &gt;pdb|1Y3Y|A Chain A, Trypsin, Cationic [Bos taurus] &gt;pdb|1YP9|A Chain A, Cationic Trypsin [Bos taurus] &gt;pdb|1YYY|1 Chain 1, Trypsin [Bos taurus] &gt;pdb|2A7H|A Chain A, Cationic Trypsin [Bos taurus] &gt;pdb|2AGE|X Chain X, Beta-trypsin [Bos taurus] &gt;pdb|2AGG|X Chain X, Beta-trypsin [Bos taurus] &gt;pdb|2AGI|X Chain X, Beta-trypsin [Bos taurus] &gt;pdb|2AH4|X Chain X, Beta-trypsin [Bos taurus] &gt;pdb|2AYW|A Chain A, Cationic Trypsin [Bos taurus] &gt;pdb|2BLV|A Chain A, Trypsin Before A High Dose X-Ray &quot;burn&quot; [Bos taurus] &gt;pdb|2BLW|A Chain A, Trypsin After A High Dose X-Ray &quot;burn&quot; [Bos taurus] &gt;pdb|2BTC|E Chain E, Bovine Trypsin In Complex With Squash Seed Inhibitor (Cucurbita Pepo Trypsin Inhibitor Ii) [Bos taurus] &gt;pdb|2BZA|A Chain A, PROTEIN (TRYPSIN) [Bos taurus] &gt;pdb|2CMY|A Chain A, Cationic Trypsin [Bos taurus] &gt;pdb|2F3C|E Chain E, Cationic Trypsin [Bos taurus] &gt;pdb|2FI3|E Chain E, Cationic Trypsin [Bos taurus] &gt;pdb|2FX4|A Chain A, Trypsin [Bos taurus] &gt;pdb|2FX6|A Chain A, Trypsin [Bos taurus] &gt;pdb|2G55|A Chain A, Cationic Trypsin [Bos taurus] &gt;pdb|2G5N|A Chain A, Cationic Trypsin [Bos taurus] &gt;pdb|2G5V|A Chain A, Cationic Trypsin [Bos taurus] &gt;pdb|2G81|E Chain E, Cationic Trypsin [Bos taurus] &gt;pdb|2G8T|A Chain A, Cationic Trypsin [Bos taurus] &gt;pdb|2ILN|A Chain A, Cationic Trypsin [Bos taurus] &gt;pdb|2ILN|B Chain B, Cationic Trypsin [Bos taurus] &gt;pdb|2J9N|A Chain A, CATIONIC TRYPSIN [Bos taurus] &gt;pdb|2O9Q|A Chain A, Cationic trypsin [Bos taurus] &gt;pdb|2OTV|A Chain A, Cationic Trypsin [Bos taurus] &gt;pdb|2OXS|A Chain A, Cationic Trypsin [Bos taurus] &gt;pdb|2PLX|A Chain A, Cationic trypsin [Bos taurus] &gt;pdb|2PTC|E Chain E, Beta-trypsin [Bos taurus] &gt;pdb|2PTN|A Chain A, Trypsin [Bos taurus] &gt;pdb|2QN5|T Chain T, Crystal Structure And Functional Study Of The Bowman-Birk Inhibitor From Rice Bran In Complex With Bovine Trypsin [Bos taurus] &gt;pdb|2QYI|A Chain A, Cationic Trypsin [Bos taurus] &gt;pdb|2QYI|C Chain C, Cationic Trypsin [Bos taurus] &gt;pdb|2TIO|A Chain A, Protein (beta-trypsin) [Bos taurus] &gt;pdb|2UUY|A Chain A, Cationic Trypsin [Bos taurus] &gt;pdb|2XTT|B Chain B, CATIONIC TRYPSIN [Bos taurus] &gt;pdb|2ZDK|A Chain A, Cationic Trypsin [Bos taurus] &gt;pdb|2ZDL|A Chain A, Cationic Trypsin [Bos taurus] &gt;pdb|2ZDM|A Chain A, Cationic Trypsin [Bos taurus] &gt;pdb|2ZDN|A Chain A, Cationic Trypsin [Bos taurus] &gt;pdb|2ZFS|A Chain A, Cationic Trypsin [Bos taurus] &gt;pdb|2ZFT|A Chain A, Cationic Trypsin [Bos taurus] &gt;pdb|2ZHD|A Chain A, Cationic Trypsin [Bos taurus] &gt;pdb|2ZQ1|A Chain A, Cationic Trypsin [Bos taurus] &gt;pdb|2ZQ2|A Chain A, Cationic Trypsin [Bos taurus] &gt;pdb|3A7T|A Chain A, Crystal Structure Of Trypsin Complexed With 4-Formylbenzimidamide [Bos taurus] &gt;pdb|3A7V|A Chain A, Crystal Structure Of Trypsin Complexed With 3-Formylbenzimidamide [Bos taurus] &gt;pdb|3A7W|A Chain A, Crystal Structure Of Trypsin Complexed With (E)-4-((Tetrahydro-2h- Pyran-2-Yloxyimino)methyl)benzimidamide (Soaking 4hours) [Bos taurus] &gt;pdb|3A7X|A Chain A, Crystal Structure Of Trypsin Complexed With (E)-2-(4- Carbamimidoylbenzylideneaminooxy)acetic Acid (Soaking 45seconds) [Bos taurus] &gt;pdb|3A7Y|A Chain A, Crystal Structure Of Trypsin Complexed With (E)-4-((1-Methylpiperidin- 3-Yloxyimino)methyl)benzimidamide (Soaking 2hours) [Bos taurus] &gt;pdb|3A7Z|A Chain A, Crystal Structure Of Trypsin Complexed With (E)-4-((1-Methylpiperidin- 4-Yloxyimino)methyl)benzimidamide (Soaking 3hours) [Bos taurus] &gt;pdb|3A80|A Chain A, Crystal Structure Of Trypsin Complexed With (E)-2-(4- Carbamimidoylbenzylideneaminooxy)-2-Methylpropanoic Acid (Soaking 40seconds) [Bos taurus] &gt;pdb|3A81|A Chain A, Crystal Structure Of Trypsin Complexed With (E)-4-((2- Nicotinoylhydrazono)methyl)benzimidamide (Soaking 8 Hours) [Bos taurus] &gt;pdb|3A82|A Chain A, Crystal Structure Of Trypsin Complexed With Pre-Synthesized (E)-2-(4- Carbamimidoylbenzylideneaminooxy)acetic Acid [Bos taurus] &gt;pdb|3A83|A Chain A, Crystal Structure Of Trypsin Complexed With Pre-Synthesized (E)-4-((2- Nicotinoylhydrazono)methyl)benzimidamide [Bos taurus] &gt;pdb|3A84|A Chain A, Crystal Structure Of Trypsin Complexed With(E)-2-(4- Carbamimidoylbenzylideneaminooxy)acetic Acid (Soaking 5 Seconds) [Bos taurus] &gt;pdb|3A85|A Chain A, Crystal Structure Of Trypsin Complexed With (E)-2-(4- Carbamimidoylbenzylideneaminooxy)acetic Acid (Soaking 15 Seconds) [Bos taurus] &gt;pdb|3A86|A Chain A, Crystal Structure Of Trypsin Complexed With (E)-2-(4- Carbamimidoylbenzylideneaminooxy)acetic Acid (Soaking 30 Seconds) [Bos taurus] &gt;pdb|3A87|A Chain A, Crystal Structure Of Trypsin Complexed With (E)-4-((2- Nicotinoylhydrazono)methyl)benzimidamide (Soaking 5 Minutes) [Bos taurus] &gt;pdb|3A88|A Chain A, Crystal Structure Of Trypsin Complexed With (E)-4-((2- Nicotinoylhydrazono)methyl)benzimidamide (Soaking 30 Minutes) [Bos taurus] &gt;pdb|3A89|A Chain A, Crystal Structure Of Trypsin Complexed With (E)-4-((2- Nicotinoylhydrazono)methyl)benzimidamide (Soaking 4 Hours) [Bos taurus] &gt;pdb|3A8A|A Chain A, Crystal Structure Of Trypsin Complexed With 4-Formylbenzimidamide And Aniline [Bos taurus] &gt;pdb|3A8B|A Chain A, Crystal Structure Of Trypsin Complexed With (E)-4-((4- Bromophenylimino)methyl)benzimidamide [Bos taurus] &gt;pdb|3A8C|A Chain A, Crystal Structure Of Trypsin Complexed With (E)-2-(4- Carbamimidoylbenzylideneaminooxy)acetic Acid (Soaking With Mixture Of [(E)-2-(4-Carbamimidoylbenzylideneaminooxy)acetic Acid] And [(E)-2- (4-Carbamimidoylbenzylideneaminooxy)-2-Methylpropanoic Acid]) [Bos taurus] &gt;pdb|3A8D|A Chain A, Crystal Structure Of Trypsin Complexed With (E)-2-(4- Carbamimidoylbenzylideneaminooxy)acetic Acid (Under Aniline-Free Condition) [Bos taurus] &gt;pdb|3AAS|A Chain A, Bovine Beta-Trypsin Bound To Meta-Guanidino Schiff Base Copper (Ii) Chelate [Bos taurus] &gt;pdb|3AAU|A Chain A, Bovine Beta-Trypsin Bound To Meta-Diguanidino Schiff Base Copper (Ii) Chelate [Bos taurus] &gt;pdb|3AAV|A Chain A, Bovine Beta-Trypsin Bound To Meta-Diamidino Schiff Base Copper (Ii) Chelate [Bos taurus] &gt;pdb|3AAV|B Chain B, Bovine Beta-Trypsin Bound To Meta-Diamidino Schiff Base Copper (Ii) Chelate [Bos taurus] &gt;pdb|3ATI|A Chain A, Cationic Trypsin [Bos taurus] &gt;pdb|3ATK|A Chain A, Cationic Trypsin [Bos taurus] &gt;pdb|3ATL|A Chain A, Cationic Trypsin [Bos taurus] &gt;pdb|3ATM|A Chain A, Cationic Trypsin [Bos taurus] &gt;pdb|3BTD|E Chain E, PROTEIN (TRYPSIN) [Bos taurus] &gt;pdb|3BTE|E Chain E, Trypsin [Bos taurus] &gt;pdb|3BTF|E Chain E, PROTEIN (TRYPSIN) [Bos taurus] &gt;pdb|3BTG|E Chain E, PROTEIN (TRYPSIN) [Bos taurus] &gt;pdb|3BTH|E Chain E, PROTEIN (TRYPSIN) [Bos taurus] &gt;pdb|3BTK|E Chain E, The Crystal Structures Of The Complexes Between Bovine Beta- Trypsin And Ten P1 Variants Of Bpti [Bos taurus] &gt;pdb|3BTM|E Chain E, PROTEIN (TRYPSIN) [Bos taurus] &gt;pdb|3BTQ|E Chain E, PROTEIN (TRYPSIN) [Bos taurus] &gt;pdb|3BTT|E Chain E, PROTEIN (TRYPSIN) [Bos taurus] &gt;pdb|3BTW|E Chain E, PROTEIN (TRYPSIN) [Bos taurus] &gt;pdb|3D65|E Chain E, Crystal Structure Of Textilinin-1, A Kunitz-Type Serine Protease Inhibitor From The Australian Common Brown Snake Venom, In Complex With Trypsin [Bos taurus] &gt;pdb|3E8L|A Chain A, Cationic Trypsin [Bos taurus] &gt;pdb|3E8L|B Chain B, Cationic Trypsin [Bos taurus] &gt;pdb|3GY2|A Chain A, A Comparative Study On The Inhibition Of Bovine Beta-Trypsin Benzamidines Diminazene And Pentamidine By X-Ray Crystallog Itc [Bos taurus] &gt;pdb|3GY3|A Chain A, A Comparative Study On The Inhibition Of Bovine Beta-Trypsin Benzamidines Diminazene And Pentamidine By X-Ray Crystallog Itc [Bos taurus] &gt;pdb|3GY4|A Chain A, A Comparative Study On The Inhibition Of Bovine Beta-Trypsin Benzamidines Diminazene And Pentamidine By X-Ray Crystallog Itc [Bos taurus] &gt;pdb|3GY5|A Chain A, A Comparative Study On The Inhibition Of Bovine Beta-Trypsin Benzamidines Diminazene And Pentamidine By X-Ray Crystallog Itc [Bos taurus] &gt;pdb|3GY6|A Chain A, A Comparative Study On The Inhibition Of Bovine Beta-Trypsin Bis-Benzamidines Diminazene And Pentamidine [Bos taurus] &gt;pdb|3GY7|A Chain A, Cationic trypsin [Bos taurus] &gt;pdb|3GY8|A Chain A, A Comparative Study On The Inhibition Of Bovine Beta-Trypsin Benzamidines Diminazene And Pentamidine By X-Ray Crystallog Itc [Bos taurus] &gt;pdb|3I29|A Chain A, Cationic Trypsin [Bos taurus] &gt;pdb|3ITI|A Chain A, Cationic trypsin [Bos taurus] &gt;pdb|3LJJ|A Chain A, Cationic trypsin [Bos taurus] &gt;pdb|3LJO|A Chain A, Cationic trypsin [Bos taurus] &gt;pdb|3M35|A Chain A, Trypsin In Complex With The Inhibitor 1-[3-(Aminomethyl) Phenyl]-N-[3-Fluoro-2&apos;-(Methylsulfonyl)biphenyl-4-Yl]-3- (Trifluoromethyl)-1h-Pyrazole-5-Carboxamide (Dpc423) [Bos taurus] &gt;pdb|3M7Q|A Chain A, Cationic Trypsin [Bos taurus] &gt;pdb|3MFJ|A Chain A, Bovine Trypsin At 0.8 A Resolution, Restrained Refinement [Bos taurus] &gt;pdb|3MI4|A Chain A, Bovine Trypsin At 0.8 A Resolution, Non-Restrained Refinemen [Bos taurus] &gt;pdb|3NK8|A Chain A, Cationic trypsin [Bos taurus] &gt;pdb|3NKK|A Chain A, Cationic trypsin [Bos taurus] &gt;pdb|3OTJ|E Chain E, Cationic trypsin [Bos taurus] &gt;pdb|3PTB|A Chain A, Beta-trypsin [Bos taurus] &gt;pdb|3PTN|A Chain A, Trypsin [Bos taurus] &gt;pdb|3RDZ|A Chain A, Cationic Trypsin [Bos taurus] &gt;pdb|3RDZ|B Chain B, Cationic Trypsin [Bos taurus] &gt;pdb|3RU4|T Chain T, Cationic Trypsin [Bos taurus] &gt;pdb|3RXA|A Chain A, Cationic Trypsin [Bos taurus] &gt;pdb|3RXB|A Chain A, Cationic Trypsin [Bos taurus] &gt;pdb|3RXC|A Chain A, Cationic Trypsin [Bos taurus] &gt;pdb|3RXD|A Chain A, Cationic Trypsin [Bos taurus] &gt;pdb|3RXE|A Chain A, Cationic Trypsin [Bos taurus] &gt;pdb|3RXF|A Chain A, Cationic Trypsin [Bos taurus] &gt;pdb|3RXG|A Chain A, Cationic Trypsin [Bos taurus] &gt;pdb|3RXH|A Chain A, Cationic Trypsin [Bos taurus] &gt;pdb|3RXI|A Chain A, Cationic Trypsin [Bos taurus] &gt;pdb|3RXJ|A Chain A, Cationic Trypsin [Bos taurus] &gt;pdb|3RXK|A Chain A, Cationic Trypsin [Bos taurus] &gt;pdb|3RXL|A Chain A, Cationic Trypsin [Bos taurus] &gt;pdb|3RXM|A Chain A, Cationic Trypsin [Bos taurus] &gt;pdb|3RXO|A Chain A, Cationic Trypsin [Bos taurus] &gt;pdb|3RXP|A Chain A, Cationic Trypsin [Bos taurus] &gt;pdb|3RXQ|A Chain A, Cationic Trypsin [Bos taurus] &gt;pdb|3RXR|A Chain A, Cationic Trypsin [Bos taurus] &gt;pdb|3RXS|A Chain A, Cationic Trypsin [Bos taurus] &gt;pdb|3RXT|A Chain A, Cationic Trypsin [Bos taurus] &gt;pdb|3RXU|A Chain A, Cationic Trypsin [Bos taurus] &gt;pdb|3RXV|A Chain A, Cationic Trypsin [Bos taurus] &gt;pdb|3T25|A Chain A, Cationic Trypsin [Bos taurus] &gt;pdb|3T26|A Chain A, Cationic Trypsin [Bos taurus] &gt;pdb|3T27|A Chain A, Cationic Trypsin [Bos taurus] &gt;pdb|3T28|A Chain A, Cationic trypsin [Bos taurus] &gt;pdb|3T29|A Chain A, Cationic trypsin [Bos taurus] &gt;pdb|3UNR|A Chain A, Cationic trypsin [Bos taurus] &gt;pdb|3VPK|A Chain A, Cationic Trypsin [Bos taurus] &gt;pdb|4AB8|A Chain A, Cationic Trypsin [Bos taurus] &gt;pdb|4AB9|A Chain A, Cationic Trypsin [Bos taurus] &gt;pdb|4ABA|A Chain A, Cationic Trypsin [Bos taurus] &gt;pdb|4ABB|A Chain A, CATIONIC TRYPSIN [Bos taurus] &gt;pdb|4ABD|A Chain A, Cationic Trypsin [Bos taurus] &gt;pdb|4ABE|A Chain A, Cationic Trypsin [Bos taurus] &gt;pdb|4ABF|A Chain A, Cationic Trypsin [Bos taurus] &gt;pdb|4ABG|A Chain A, Cationic Trypsin [Bos taurus] &gt;pdb|4ABH|A Chain A, Cationic Trypsin [Bos taurus] &gt;pdb|4ABI|A Chain A, Cationic Trypsin [Bos taurus] &gt;pdb|4ABJ|A Chain A, Cationic Trypsin [Bos taurus] &gt;pdb|4AOQ|A Chain A, CATIONIC TRYPSIN [Bos taurus] &gt;pdb|4AOQ|B Chain B, CATIONIC TRYPSIN [Bos taurus] &gt;pdb|4AOQ|C Chain C, CATIONIC TRYPSIN [Bos taurus] &gt;pdb|4AOR|A Chain A, CATIONIC TRYPSIN [Bos taurus] &gt;pdb|4AOR|B Chain B, CATIONIC TRYPSIN [Bos taurus] &gt;pdb|4AOR|C Chain C, CATIONIC TRYPSIN [Bos taurus] &gt;pdb|4HGC|A Chain A, Cationic trypsin [Bos taurus] &gt;pdb|4I8G|A Chain A, Cationic Trypsin [Bos taurus] &gt;pdb|4I8H|A Chain A, Cationic Trypsin [Bos taurus] &gt;pdb|4I8J|A Chain A, Cationic Trypsin [Bos taurus] &gt;pdb|4I8K|A Chain A, Cationic trypsin [Bos taurus] &gt;pdb|4I8L|A Chain A, Cationic trypsin [Bos taurus] &gt;pdb|4J2Y|B Chain B, Cationic trypsin [Bos taurus] &gt;pdb|4KTS|A Chain A, Cationic Trypsin [Bos taurus] &gt;pdb|4KTU|A Chain A, Cationic Trypsin [Bos taurus] &gt;pdb|4MTB|A Chain A, Cationic Trypsin [Bos taurus] &gt;pdb|4NCY|A Chain A, Cationic Trypsin [Bos taurus] &gt;pdb|4TPY|A Chain A, Cationic trypsin [Bos taurus] &gt;pdb|4U2W|A Chain A, Cationic trypsin [Bos taurus] &gt;pdb|4Y0Y|E Chain E, Cationic trypsin [Bos taurus] &gt;pdb|4Y0Z|E Chain E, Cationic trypsin [Bos taurus] &gt;pdb|4Y10|E Chain E, Cationic trypsin [Bos taurus] &gt;pdb|4Y11|E Chain E, Cationic trypsin [Bos taurus] &gt;pdb|4YTA|A Chain A, Cationic trypsin [Bos taurus] &gt;pdb|5EG4|A Chain A, Cationic Trypsin [Bos taurus] &gt;pdb|5F6M|A Chain A, Cationic Trypsin [Bos taurus] &gt;pdb|5GIB|A Chain A, Cationic Trypsin [Bos taurus] &gt;pdb|5GIB|B Chain B, Cationic Trypsin [Bos taurus] &gt;pdb|5GXP|A Chain A, Cationic Trypsin [Bos taurus] &gt;pdb|5GXP|B Chain B, Cationic Trypsin [Bos taurus] &gt;pdb|5K7R|A Chain A, Cationic trypsin [Bos taurus] &gt;pdb|5LGO|A Chain A, Cationic trypsin [Bos taurus] &gt;pdb|5LH4|A Chain A, Cationic trypsin [Bos taurus] &gt;pdb|5LH8|A Chain A, Cationic trypsin [Bos taurus] &gt;pdb|5MN1|A Chain A, Cationic trypsin [Bos taurus] &gt;pdb|5MNA|A Chain A, Cationic Trypsin [Bos taurus] &gt;pdb|5MNB|A Chain A, Cationic trypsin [Bos taurus] &gt;pdb|5MNC|A Chain A, Cationic trypsin [Bos taurus] &gt;pdb|5MNE|A Chain A, Cationic trypsin [Bos taurus] &gt;pdb|5MNF|A Chain A, Cationic trypsin [Bos taurus] &gt;pdb|5MNG|A Chain A, Cationic trypsin [Bos taurus] &gt;pdb|5MNH|A Chain A, Cationic trypsin [Bos taurus] &gt;pdb|5MNK|A Chain A, Cationic trypsin [Bos taurus] &gt;pdb|5MNL|A Chain A, Cationic trypsin [Bos taurus] &gt;pdb|5MNM|A Chain A, Cationic trypsin [Bos taurus] &gt;pdb|5MNN|A Chain A, Cationic trypsin [Bos taurus] &gt;pdb|5MNO|A Chain A, Cationic trypsin [Bos taurus] &gt;pdb|5MNP|A Chain A, Cationic trypsin [Bos taurus] &gt;pdb|5MNQ|A Chain A, Cationic trypsin [Bos taurus] &gt;pdb|5MNX|A Chain A, Cationic trypsin [Bos taurus] &gt;pdb|5MNY|A Chain A, Cationic trypsin [Bos taurus] &gt;pdb|5MNZ|A Chain A, Cationic trypsin [Bos taurus] &gt;pdb|5MO0|A Chain A, Cationic trypsin [Bos taurus] &gt;pdb|5MO1|A Chain A, Cationic trypsin [Bos taurus] &gt;pdb|5MO2|A Chain A, Cationic trypsin [Bos taurus] &gt;pdb|5MON|A Chain A, Cationic trypsin [Bos taurus] &gt;pdb|5MOO|A Chain A, Cationic trypsin [Bos taurus] &gt;pdb|5MOP|A Chain A, Cationic trypsin [Bos taurus] &gt;pdb|5MOQ|A Chain A, Cationic trypsin [Bos taurus] &gt;pdb|5MOR|A Chain A, Cationic trypsin [Bos taurus] &gt;pdb|5MOS|A Chain A, Cationic trypsin [Bos taurus] &gt;pdb|5T3H|A Chain A, Cationic Trypsin [Bos taurus] &gt;pdb|6AVL|A Chain A, Cationic trypsin [Bos taurus] &gt;pdb|6B6N|A Chain A, Cationic trypsin [Bos taurus] &gt;pdb|6B6O|A Chain A, Cationic trypsin [Bos taurus] &gt;pdb|6B6P|A Chain A, Cationic trypsin [Bos taurus] &gt;pdb|6B6Q|A Chain A, Cationic trypsin [Bos taurus] &gt;pdb|6B6R|A Chain A, Cationic trypsin [Bos taurus] &gt;pdb|6B6S|A Chain A, Cationic trypsin [Bos taurus] &gt;pdb|6B6T|A Chain A, Cationic trypsin [Bos taurus] &gt;pdb|6BFP|A Chain A, Cationic trypsin [Bos taurus] &gt;pdb|6BVH|A Chain A, Cationic trypsin [Bos taurus] &gt;pdb|6DWF|A Chain A, Cationic trypsin [Bos taurus] &gt;pdb|6DWF|B Chain B, Cationic trypsin [Bos taurus] &gt;pdb|6DWF|C Chain C, Cationic trypsin [Bos taurus] &gt;pdb|6DWF|D Chain D, Cationic trypsin [Bos taurus] &gt;pdb|6DWF|E Chain E, Cationic trypsin [Bos taurus] &gt;pdb|6DWF|F Chain F, Cationic trypsin [Bos taurus] &gt;pdb|6DWH|A Chain A, Cationic trypsin [Bos taurus] &gt;pdb|6DWH|B Chain B, Cationic trypsin [Bos taurus] &gt;pdb|6DWH|C Chain C, Cationic trypsin [Bos taurus] &gt;pdb|6DWH|D Chain D, Cationic trypsin [Bos taurus] &gt;pdb|6DWH|E Chain E, Cationic trypsin [Bos taurus] &gt;pdb|6DWH|F Chain F, Cationic trypsin [Bos taurus] &gt;pdb|6DZF|A Chain A, Cationic trypsin [Bos taurus] &gt;pdb|6E5M|A Chain A, Cationic trypsin [Bos taurus] &gt;pdb|6EAT|A Chain A, Cationic trypsin [Bos taurus] &gt;pdb|6EAU|A Chain A, Cationic trypsin [Bos taurus] &gt;pdb|6EAV|A Chain A, Cationic trypsin [Bos taurus] &gt;pdb|6EAW|A Chain A, Cationic trypsin [Bos taurus] &gt;pdb|6EAX|A Chain A, Cationic trypsin [Bos taurus] &gt;pdb|6FID|A Chain A, Cationic trypsin [Bos taurus] &gt;pdb|6QIH|A Chain A, Cationic trypsin [Bos taurus] &gt;pdb|6SUX|A Chain A, Cationic trypsin [Bos taurus] &gt;pdb|6SV0|A Chain A, Cationic trypsin [Bos taurus] &gt;pdb|6SV6|A Chain A, Cationic trypsin [Bos taurus] &gt;pdb|6SV8|A Chain A, Cationic trypsin [Bos taurus] &gt;pdb|6SV9|A Chain A, Cationic trypsin [Bos taurus] &gt;pdb|6SVB|A Chain A, Cationic trypsin [Bos taurus] &gt;pdb|6SVD|A Chain A, Cationic trypsin [Bos taurus] &gt;pdb|6SVG|A Chain A, Cationic trypsin [Bos taurus] &gt;pdb|6SVI|A Chain A, Cationic trypsin [Bos taurus] &gt;pdb|6SVJ|A Chain A, Cationic trypsin [Bos taurus] &gt;pdb|6SVN|A Chain A, Cationic trypsin [Bos taurus] &gt;pdb|6SVR|A Chain A, Cationic trypsin [Bos taurus] &gt;pdb|6SVU|A Chain A, Cationic trypsin [Bos taurus] &gt;pdb|6SVV|A Chain A, Cationic trypsin [Bos taurus] &gt;pdb|6SVW|A Chain A, Cationic trypsin [Bos taurus] &gt;pdb|6SVX|A Chain A, Cationic trypsin [Bos taurus] &gt;pdb|6SVZ|A Chain A, Cationic trypsin [Bos taurus] &gt;pdb|6SW0|A Chain A, Cationic trypsin [Bos taurus]</Hit_def>
+  <Hit_accession>1AQ7_A</Hit_accession>
+  <Hit_len>223</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>186.808</Hsp_bit-score>
+      <Hsp_score>473</Hsp_score>
+      <Hsp_evalue>4.38879e-53</Hsp_evalue>
+      <Hsp_query-from>1207</Hsp_query-from>
+      <Hsp_query-to>1443</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>223</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>139</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>IVGGQEANPGDWPWQALLQTPRGSQFCGGTLIHPQWVLSAAHCVERSKPQDIVIRMGAHYRVEKSSTSKNEQKFKVTKIITYESYNKPLQLSHDVALLKLESSATLNDFTNLACLPSTNPTTGSFCAITGWGTLKQNG-GQPAKLQVVRVPIIQQETCQRYYPKAIHGSMVCAGFSEGGKDSCQGDSGGPMVCKGTDGRYSLHGVTSWGSGCAQPRKPGVYARVSFLLKWIKDNINNN</Hsp_qseq>
+      <Hsp_hseq>IVGGYTCGANTVPYQVSLNS--GYHFCGGSLINSQWVVSAAHCYKS----GIQVRLGED---NINVVEGNEQFISASKSIVHPSYNSN-TLNNDIMLIKLKSAASLNSRVASISLPTSCASAGTQCLISGWGNTKSSGTSYPDVLKCLKAPILSDSSCKSAYPGQITSNMFCAGYLEGGKDSCQGDSGGPVVCSGK-----LQGIVSWGSGCAQKNKPGVYTKVCNYVSWIKQTIASN</Hsp_hseq>
+      <Hsp_midline>IVGG        P+Q  L +  G  FCGG+LI+ QWV+SAAHC +      I +R+G       +    NEQ    +K I + SYN    L++D+ L+KL+S+A+LN       LP++  + G+ C I+GWG  K +G   P  L+ ++ PI+   +C+  YP  I  +M CAG+ EGGKDSCQGDSGGP+VC G      L G+ SWGSGCAQ  KPGVY +V   + WIK  I +N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>pdb|1ANB|A</Hit_id>
+  <Hit_def>Chain A, Anionic Trypsin Mutant With Ser 214 Replaced By Glu [Rattus rattus]</Hit_def>
+  <Hit_accession>1ANB_A</Hit_accession>
+  <Hit_len>223</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>186.808</Hsp_bit-score>
+      <Hsp_score>473</Hsp_score>
+      <Hsp_evalue>4.60587e-53</Hsp_evalue>
+      <Hsp_query-from>1207</Hsp_query-from>
+      <Hsp_query-to>1443</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>223</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>132</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>IVGGQEANPGDWPWQALLQTPRGSQFCGGTLIHPQWVLSAAHCVERSKPQDIVIRMGAHYRVEKSSTSKNEQKFKVTKIITYESYNKPLQLSHDVALLKLESSATLNDFTNLACLPSTNPTTGSFCAITGWG-TLKQNGGQPAKLQVVRVPIIQQETCQRYYPKAIHGSMVCAGFSEGGKDSCQGDSGGPMVCKGTDGRYSLHGVTSWGSGCAQPRKPGVYARVSFLLKWIKDNINNN</Hsp_qseq>
+      <Hsp_hseq>IVGGYTCQENSVPYQVSLNS--GYHFCGGSLINDQWVVSAAHCYKSR----IQVRLGEH---NINVLEGNEQFVNAAKIIKHPNFDRK-TLNNDIMLIKLSSPVKLNARVATVALPSSCAPAGTQCLISGWGNTLSSGVNEPDLLQCLDAPLLPQADCEASYPGKITDNMVCVGFLEGGKDSCQGDSGGPVVCNG-----ELQGIVEWGYGCALPDNPGVYTKVCNYVDWIQDTIAAN</Hsp_hseq>
+      <Hsp_midline>IVGG        P+Q  L +  G  FCGG+LI+ QWV+SAAHC +      I +R+G H     +    NEQ     KII + ++++   L++D+ L+KL S   LN       LPS+    G+ C I+GWG TL     +P  LQ +  P++ Q  C+  YP  I  +MVC GF EGGKDSCQGDSGGP+VC G      L G+  WG GCA P  PGVY +V   + WI+D I  N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>pdb|1TAW|A</Hit_id>
+  <Hit_def>Chain A, TRYPSIN [Bos taurus] &gt;pdb|1ZR0|A Chain A, Cationic Trypsin [Bos taurus] &gt;pdb|1ZR0|C Chain C, Cationic Trypsin [Bos taurus]</Hit_def>
+  <Hit_accession>1TAW_A</Hit_accession>
+  <Hit_len>223</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>186.422</Hsp_bit-score>
+      <Hsp_score>472</Hsp_score>
+      <Hsp_evalue>5.07276e-53</Hsp_evalue>
+      <Hsp_query-from>1207</Hsp_query-from>
+      <Hsp_query-to>1443</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>223</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>139</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>IVGGQEANPGDWPWQALLQTPRGSQFCGGTLIHPQWVLSAAHCVERSKPQDIVIRMGAHYRVEKSSTSKNEQKFKVTKIITYESYNKPLQLSHDVALLKLESSATLNDFTNLACLPSTNPTTGSFCAITGWGTLKQNG-GQPAKLQVVRVPIIQQETCQRYYPKAIHGSMVCAGFSEGGKDSCQGDSGGPMVCKGTDGRYSLHGVTSWGSGCAQPRKPGVYARVSFLLKWIKDNINNN</Hsp_qseq>
+      <Hsp_hseq>IVGGYTCGANTVPYQVSLNS--GYHFCGGSLINSQWVVSAAHCYKS----GIQVRLGED---NINVVEGNEQFISASKSIVHPSYNSN-TLNNDIMLIKLKSAASLNSRVASISLPTSCASAGTQCLISGWGNTKSSGTSYPDVLKCLKAPILSTSSCKSAYPGQITSNMFCAGYLEGGKDSCQGDSGGPVVCSG-----KLQGIVSWGSGCAQKNKPGVYTKVCNYVSWIKQTIASN</Hsp_hseq>
+      <Hsp_midline>IVGG        P+Q  L +  G  FCGG+LI+ QWV+SAAHC +      I +R+G       +    NEQ    +K I + SYN    L++D+ L+KL+S+A+LN       LP++  + G+ C I+GWG  K +G   P  L+ ++ PI+   +C+  YP  I  +M CAG+ EGGKDSCQGDSGGP+VC G      L G+ SWGSGCAQ  KPGVY +V   + WIK  I +N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>pdb|1ANC|A</Hit_id>
+  <Hit_def>Chain A, Anionic Trypsin Mutant With Ser 214 Replaced By Lys [Rattus rattus]</Hit_def>
+  <Hit_accession>1ANC_A</Hit_accession>
+  <Hit_len>223</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>186.422</Hsp_bit-score>
+      <Hsp_score>472</Hsp_score>
+      <Hsp_evalue>5.22185e-53</Hsp_evalue>
+      <Hsp_query-from>1207</Hsp_query-from>
+      <Hsp_query-to>1443</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>223</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>132</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>IVGGQEANPGDWPWQALLQTPRGSQFCGGTLIHPQWVLSAAHCVERSKPQDIVIRMGAHYRVEKSSTSKNEQKFKVTKIITYESYNKPLQLSHDVALLKLESSATLNDFTNLACLPSTNPTTGSFCAITGWG-TLKQNGGQPAKLQVVRVPIIQQETCQRYYPKAIHGSMVCAGFSEGGKDSCQGDSGGPMVCKGTDGRYSLHGVTSWGSGCAQPRKPGVYARVSFLLKWIKDNINNN</Hsp_qseq>
+      <Hsp_hseq>IVGGYTCQENSVPYQVSLNS--GYHFCGGSLINDQWVVSAAHCYKSR----IQVRLGEH---NINVLEGNEQFVNAAKIIKHPNFDRK-TLNNDIMLIKLSSPVKLNARVATVALPSSCAPAGTQCLISGWGNTLSSGVNEPDLLQCLDAPLLPQADCEASYPGKITDNMVCVGFLEGGKDSCQGDSGGPVVCNG-----ELQGIVKWGYGCALPDNPGVYTKVCNYVDWIQDTIAAN</Hsp_hseq>
+      <Hsp_midline>IVGG        P+Q  L +  G  FCGG+LI+ QWV+SAAHC +      I +R+G H     +    NEQ     KII + ++++   L++D+ L+KL S   LN       LPS+    G+ C I+GWG TL     +P  LQ +  P++ Q  C+  YP  I  +MVC GF EGGKDSCQGDSGGP+VC G      L G+  WG GCA P  PGVY +V   + WI+D I  N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>pdb|3QK1|A</Hit_id>
+  <Hit_def>Chain A, Cationic Trypsin [Bos taurus]</Hit_def>
+  <Hit_accession>3QK1_A</Hit_accession>
+  <Hit_len>229</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>186.422</Hsp_bit-score>
+      <Hsp_score>472</Hsp_score>
+      <Hsp_evalue>5.71577e-53</Hsp_evalue>
+      <Hsp_query-from>1207</Hsp_query-from>
+      <Hsp_query-to>1443</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>223</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>140</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>IVGGQEANPGDWPWQALLQTPRGSQFCGGTLIHPQWVLSAAHCVERSKPQDIVIRMGAHYRVEKSSTSKNEQKFKVTKIITYESYNKPLQLSHDVALLKLESSATLNDFTNLACLPSTNPTTGSFCAITGWGTLKQNG-GQPAKLQVVRVPIIQQETCQRYYPKAIHGSMVCAGFSEGGKDSCQGDSGGPMVCKGTDGRYSLHGVTSWGSGCAQPRKPGVYARVSFLLKWIKDNINNN</Hsp_qseq>
+      <Hsp_hseq>IVGGYTCGANTVPYQVSLNS--GYHFCGGSLINSQWVVSAAHCYK----SGIQVRLGED---NINVVEGNEQFISASKSIVHPSYNKRRK-NNDIMLIKLKSAASLNSRVASISLPTSCASAGTQCLISGWGNTKSSGTSYPDVLKCLKAPILSDSSCKSAYPGQITSNMFCAGYLEGGKDSCQGDSGGPVVCSGK-----LQGIVSWGSGCAQKNKPGVYTKVCNYVSWIKQTIASN</Hsp_hseq>
+      <Hsp_midline>IVGG        P+Q  L +  G  FCGG+LI+ QWV+SAAHC +      I +R+G       +    NEQ    +K I + SYNK  + ++D+ L+KL+S+A+LN       LP++  + G+ C I+GWG  K +G   P  L+ ++ PI+   +C+  YP  I  +M CAG+ EGGKDSCQGDSGGP+VC G      L G+ SWGSGCAQ  KPGVY +V   + WIK  I +N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>pdb|1J14|A</Hit_id>
+  <Hit_def>Chain A, Trypsin Ii, Anionic [Rattus norvegicus] &gt;pdb|1QL9|A Chain A, Trypsin [Rattus norvegicus]</Hit_def>
+  <Hit_accession>1J14_A</Hit_accession>
+  <Hit_len>223</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>186.422</Hsp_bit-score>
+      <Hsp_score>472</Hsp_score>
+      <Hsp_evalue>6.33418e-53</Hsp_evalue>
+      <Hsp_query-from>1207</Hsp_query-from>
+      <Hsp_query-to>1443</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>223</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>132</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>IVGGQEANPGDWPWQALLQTPRGSQFCGGTLIHPQWVLSAAHCVERSKPQDIVIRMGAHYRVEKSSTSKNEQKFKVTKIITYESYNKPLQLSHDVALLKLESSATLNDFTNLACLPSTNPTTGSFCAITGWG-TLKQNGGQPAKLQVVRVPIIQQETCQRYYPKAIHGSMVCAGFSEGGKDSCQGDSGGPMVCKGTDGRYSLHGVTSWGSGCAQPRKPGVYARVSFLLKWIKDNINNN</Hsp_qseq>
+      <Hsp_hseq>IVGGYTCQENSVPYQVSLNS--GYHFCGGSLINDQWVVSAAHCYKSR----IQVRLGEH---NINVLEGNEQFVNAAKIIKHPNFDRE-TYNNDIMLIKLSSPVKLNARVATVALPSSCAPAGTQCLISGWGNTLSSGVNEPDLLQCLDAPLLPQADCEASYPGKITDNMVCVGFLEGGKDSCQGDSGGPVVCNG-----ELQGIVSWGYGCALPDNPGVYTKVCNYVDWIQDTIAAN</Hsp_hseq>
+      <Hsp_midline>IVGG        P+Q  L +  G  FCGG+LI+ QWV+SAAHC +      I +R+G H     +    NEQ     KII + ++++    ++D+ L+KL S   LN       LPS+    G+ C I+GWG TL     +P  LQ +  P++ Q  C+  YP  I  +MVC GF EGGKDSCQGDSGGP+VC G      L G+ SWG GCA P  PGVY +V   + WI+D I  N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>pdb|1TRM|A</Hit_id>
+  <Hit_def>Chain A, TRYPSIN [Rattus rattus] &gt;pdb|1TRM|B Chain B, TRYPSIN [Rattus rattus] &gt;pdb|2TRM|A Chain A, TRYPSIN [Rattus norvegicus]</Hit_def>
+  <Hit_accession>1TRM_A</Hit_accession>
+  <Hit_len>223</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>186.037</Hsp_bit-score>
+      <Hsp_score>471</Hsp_score>
+      <Hsp_evalue>7.75798e-53</Hsp_evalue>
+      <Hsp_query-from>1207</Hsp_query-from>
+      <Hsp_query-to>1443</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>223</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>133</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>238</Hsp_align-len>
+      <Hsp_qseq>IVGGQEANPGDWPWQALLQTPRGSQFCGGTLIHPQWVLSAAHCVERSKPQDIVIRMGAHYRVEKSSTSKNEQKFKVTKIITYESYNKPLQLSHDVALLKLESSATLNDFTNLACLPSTNPTTGSFCAITGWG-TLKQNGGQPAKLQVVRVPIIQQETCQRYYPKAIHGSMVCAGFSEGGKDSCQGDSGGPMVCKGTDGRYSLHGVTSWGSGCAQPRKPGVYARVSFLLKWIKDNINNN</Hsp_qseq>
+      <Hsp_hseq>IVGGYTCQENSVPYQVSLNS--GYHFCGGSLINDQWVVSAAHCYKSR----IQVRLGEH---NINVLEGNEQFVNAAKIIKHPNFDRK-TLNNNIMLIKLSSPVKLNARVATVALPSSCAPAGTQCLISGWGNTLSSGVNEPDLLQCLDAPLLPQADCEASYPGKITDNMVCVGFLEGGKDSCQGDSGGPVVCNG-----ELQGIVSWGYGCALPDNPGVYTKVCNYVDWIQDTIAAN</Hsp_hseq>
+      <Hsp_midline>IVGG        P+Q  L +  G  FCGG+LI+ QWV+SAAHC +      I +R+G H     +    NEQ     KII + ++++   L++++ L+KL S   LN       LPS+    G+ C I+GWG TL     +P  LQ +  P++ Q  C+  YP  I  +MVC GF EGGKDSCQGDSGGP+VC G      L G+ SWG GCA P  PGVY +V   + WI+D I  N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>pdb|1DLK|B</Hit_id>
+  <Hit_def>Chain B, Thrombin heavy chain [Bos taurus] &gt;pdb|1DLK|D Chain D, Thrombin heavy chain [Bos taurus]</Hit_def>
+  <Hit_accession>1DLK_B</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>186.422</Hsp_bit-score>
+      <Hsp_score>472</Hsp_score>
+      <Hsp_evalue>7.87607e-53</Hsp_evalue>
+      <Hsp_query-from>1207</Hsp_query-from>
+      <Hsp_query-to>1443</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>230</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>139</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>240</Hsp_align-len>
+      <Hsp_qseq>IVGGQEANPGDWPWQALLQTPRGSQFCGGTLIHPQWVLSAAHCVERSKPQDIVIRMGAHYRVEKSSTSKNEQKFKVTKIITYESYNKPLQLSHDVALLKLESSATLNDFTNLACLPSTNP--TTGSFCAITGWG-TLKQNGGQPAKLQVVRVPIIQQETCQRYYPKAIHGSMVCAGFSEGGKDSCQGDSGGPMVCKGTDGRYSLHGVTSWGSGCAQPRKPGVYARVSFLLKWIKDNINNN</Hsp_qseq>
+      <Hsp_hseq>IVNGEEAVPGSWPWQVSLQDKTGFHFCGGSLINENWVVTAAHC--GVTTSDVVVAG----EFDQGSSSEKIQKLKIAKVFKNSKYNS-LTINNDITLLKLSTAASFSQTVSAVCLPSASDDFAAGTTCVTTGWGLTRYTNANTPDRLQQASLPLLSNTNCKKYWGTKIKDAMICAGAS--GVSSCMGDSGGPLVCK-KNGAWTLVGIVSWGSSTCSTSTPGVYARVTALVNWVQQTLAAN</Hsp_hseq>
+      <Hsp_midline>IV G+EA PG WPWQ  LQ   G  FCGG+LI+  WV++AAHC       D+V+        ++ S+S+  QK K+ K+     YN  L +++D+ LLKL ++A+ +   +  CLPS +     G+ C  TGWG T   N   P +LQ   +P++    C++Y+   I  +M+CAG S  G  SC GDSGGP+VCK  +G ++L G+ SWGS       PGVYARV+ L+ W++  +  N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>115592</Statistics_db-num>
+      <Statistics_db-len>30167011</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
