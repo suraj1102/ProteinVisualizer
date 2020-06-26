@@ -3,7 +3,7 @@ Protein Visualizer that shows how proteins look and converts the amino acid sequ
 
 Program Flow:
 - The program asks for a protein from the user.
-- Searches the NCBI Protein database for that search quiry and displays top 20 results. 
+- Searches the NCBI Protein database for that search query and displays top 20 results. 
 - The user may choose a protein from one of those results. 
 - The program will then do two things:
   1. Create a .pdb file for that protein and open that file with a software like UCSF Chimera or PyMol. 
