@@ -20,8 +20,8 @@ Click on picture to see video
 1. Python 3.6 or above.
     - Can be downloaded from https://www.python.org/downloads/
 2. Requests module
-  - Terminal command to download: ```pip install requests```
+    - Terminal command to download: ```pip install requests```
 3. Beautiful soup module
-  - Terminal command to download: ```pip install beautifulsoup4```
+    - Terminal command to download: ```pip install beautifulsoup4```
 4. BioPython module
-  - Terminal command to download: ```pip install biopython```
+    - Terminal command to download: ```pip install biopython```
