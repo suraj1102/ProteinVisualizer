@@ -46,11 +46,15 @@ class Blast():
         file = self.PDBid + '.pdb'
         url = pdbd + file
         urllib.request.urlretrieve(url, pdbf + file)
-        if sys.platform == "win32":
-            os.startfile(pdbf + file)
-        else:
-            opener = "open" if sys.platform == "darwin" else "xdg-open"
-            subprocess.call([opener, pdbf + file])
+        
+        try:
+            if sys.platform == "win32":
+                os.startfile(pdbf + file)
+            else:
+                opener = "open" if sys.platform == "darwin" else "xdg-open"
+                subprocess.call([opener, pdbf + file])
+        except:
+            print(f"Program to open PDB files not found.\nTry opening file {self.protein}.pdb inside on the PDBfiles folder")
 
 # WebScraper = WebScraper()
 # WebScraper.get_search_items()
