@@ -1,6 +1,7 @@
 import requests, os
 from bs4 import BeautifulSoup
 from Bio import Entrez, SeqIO
+from sys import exit
 
 class WebScraper():
     def __init__(self):
@@ -10,8 +11,11 @@ class WebScraper():
 
     def get_search_items(self):
         self.protein = input("\nEnter Protein: ")
+        
+        if self.protein.strip() == 'quit':
+            exit()
 
-        page = requests.get(f"https://www.ncbi.nlm.nih.gov/protein/?term={self.protein}", headers=self.headers)
+        page = requests.get(f"https://www.ncbi.nlm.nih.gov/protein/?term={self.protein.strip()}", headers=self.headers)
         soup = BeautifulSoup(page.content, 'html.parser')
 
         self.url_links = []
@@ -31,8 +35,15 @@ class WebScraper():
             self.get_search_items()
     
     def get_protein_sequence(self):
-        index = int(input("\nEnter Number: "))
-
+        try:
+            global index
+            index = int(input("\nEnter Number: "))
+            if index == 'quit':
+                exit()
+        except: 
+            print("ENTER VALID INPUT")
+            self.get_protein_sequence()
+            
         try:
             self.protein_id = self.url_links[index-1].split('/')[2]
             self.protein_name = self.protein_names[index-1]
@@ -56,7 +67,7 @@ class WebScraper():
 
             handle.close()
 
-        except IndexError:
+        except (IndexError, ValueError):
             print("ENTER VALID INPUT")
             self.get_protein_sequence()
         
